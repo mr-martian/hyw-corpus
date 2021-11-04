@@ -16,7 +16,8 @@ class kantsasar_spider(scrapy.Spider):
                 elif s:
                     ls.append(s)
             yield {
-                'title': block.css('h1 a::text').get(),
+                'title': (block.css('h1 a::text').get() or '').strip(),
+                'date': (block.css('span.mg-blog-date::text').get() or '').strip(),
                 'body': '\n'.join(ls)
             }
         links = ['h5.title a', 'div.nav-links a', 'article.bottom a']
