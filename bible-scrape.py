@@ -28,7 +28,7 @@ class MyHTMLParser(HTMLParser):
         global writing, out
         if writing:
             if not out:
-                out = open(data + '.txt', 'w')
+                out = open('Bible/' + data + '.txt', 'w')
             else:
                 out.write(data)
 
