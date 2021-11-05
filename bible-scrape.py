@@ -30,7 +30,7 @@ class MyHTMLParser(HTMLParser):
             if not out:
                 out = open('Bible/' + data + '.txt', 'w')
             else:
-                out.write(data)
+                out.write(data.replace(' ', ' '))
 
 with open('Bible_links.txt') as fin:
     for line in fin:
