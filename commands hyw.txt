@@ -1,0 +1,11 @@
+All commands from apertium-hyw directory
+
+compile: make
+or make hyw.automorf.bin
+analyze Bible: cat ../hyw-corpus/Bible.txt | lt-proc hyw.automorf.bin | apertium-cleanstream -n > toks.txt
+count tokens: wc -l toks.txt
+count unknowns: grep -c '\*' toks.txt
+coverage = (tok - unk) / tok
+get unknowns: grep '\*' toks.txt | sort | uniq -c | sort -nr > unk.txt
+commit: git commit . -m "changes (or other message)"
+push: git push
