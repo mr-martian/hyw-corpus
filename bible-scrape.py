@@ -22,16 +22,10 @@ class MyHTMLParser(HTMLParser):
             out_all.write('\n')
         elif tag == 'title':
             writing = True
-        elif tag == 'span' and not writing:
-            if False and dict(attrs).get('style') == 'font-family: verdana, sans-serif; font-size: large;':
-                writing = True
-                weird = True
 
     def handle_endtag(self, tag):
-        global writing, weird
+        global writing
         if tag == 'title' or tag == 'div':
-            writing = False
-        elif tag == 'span' and weird:
             writing = False
 
     def handle_data(self, data):
@@ -46,11 +40,34 @@ class MyHTMLParser(HTMLParser):
                 out.write(s)
                 out_all.write(s)
 
+class WeirdHTMLParser(MyHTMLParser):
+    def handle_starttag(self, tag, attrs):
+        global writing, out, out_all, weird
+        if tag == 'title':
+            writing = True
+        elif tag == 'span' and weird:
+            writing = True
+        elif tag == 'div' and dict(attrs).get('class') == 'section js-section':
+            weird = True
+        elif tag == 'br':
+            out.write('\n')
+            out_all.write('\n')
+    def handle_endtag(self, tag):
+        global writing
+        if tag == 'span' or tag == 'title':
+            writing = False
+
 with open('Bible_links.txt') as fin:
     for line in fin:
-        parser = MyHTMLParser()
-        r = requests.get(line.strip())
-        parser.feed(r.text)
+        ls = line.split()
+        if len(ls) == 1:
+            parser = MyHTMLParser()
+            r = requests.get(line.strip())
+            parser.feed(r.text)
+        else:
+            parser = WeirdHTMLParser()
+            r = requests.get(ls[0])
+            parser.feed(r.text)
         out.close()
         out = None
         weird = False
