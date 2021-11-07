@@ -13,7 +13,7 @@ class MyHTMLParser(HTMLParser):
     def handle_starttag(self, tag, attrs):
         global writing, out, out_all, weird
         if tag == 'div':
-            if dict(attrs).get('class') in ['usfm_s1', 'usfm_p']:
+            if dict(attrs).get('class') in ['usfm_s1', 'usfm_p', 'MsoNormal']:
                 writing = True
             else:
                 writing = False
