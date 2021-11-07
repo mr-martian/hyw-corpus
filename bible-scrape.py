@@ -5,10 +5,13 @@ from html.entities import name2codepoint
 
 writing = False
 out = None
+weird = False
+
+out_all = open('Bible.txt', 'w')
 
 class MyHTMLParser(HTMLParser):
     def handle_starttag(self, tag, attrs):
-        global writing, out
+        global writing, out, out_all, weird
         if tag == 'div':
             if dict(attrs).get('class') in ['usfm_s1', 'usfm_p']:
                 writing = True
@@ -16,21 +19,32 @@ class MyHTMLParser(HTMLParser):
                 writing = False
         elif tag == 'b' and writing:
             out.write('\n')
+            out_all.write('\n')
         elif tag == 'title':
             writing = True
+        elif tag == 'span' and not writing:
+            if False and dict(attrs).get('style') == 'font-family: verdana, sans-serif; font-size: large;':
+                writing = True
+                weird = True
 
     def handle_endtag(self, tag):
-        global writing
+        global writing, weird
         if tag == 'title' or tag == 'div':
+            writing = False
+        elif tag == 'span' and weird:
             writing = False
 
     def handle_data(self, data):
-        global writing, out
+        global writing, out, out_all
         if writing:
             if not out:
-                out = open('Bible/' + data + '.txt', 'w')
+                t = data.strip()
+                out = open('Bible/' + t + '.txt', 'w')
+                out_all.write('\n' + t + '\n\n')
             else:
-                out.write(data.replace(' ', ' '))
+                s = data.replace(' ', ' ')
+                out.write(s)
+                out_all.write(s)
 
 with open('Bible_links.txt') as fin:
     for line in fin:
@@ -39,3 +53,6 @@ with open('Bible_links.txt') as fin:
         parser.feed(r.text)
         out.close()
         out = None
+        weird = False
+
+out_all.close()
