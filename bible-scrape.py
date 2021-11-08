@@ -24,7 +24,10 @@ class MyHTMLParser(HTMLParser):
             writing = True
 
     def handle_endtag(self, tag):
-        global writing
+        global writing, out, out_all
+        if tag == 'div' and writing:
+            out.write('\n')
+            out_all.write('\n')
         if tag == 'title' or tag == 'div':
             writing = False
 
