@@ -56,7 +56,10 @@ class WeirdHTMLParser(MyHTMLParser):
             out.write('\n')
             out_all.write('\n')
     def handle_endtag(self, tag):
-        global writing
+        global writing, out, out_all
+        if tag == 'span' and writing:
+            out.write(' ')
+            out_all.write(' ')
         if tag == 'span' or tag == 'title':
             writing = False
 
