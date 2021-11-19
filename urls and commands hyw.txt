@@ -1,0 +1,23 @@
+All commands from apertium-hyw directory
+
+compile: make
+or make hyw.automorf.bin
+analyze Bible: cat ../hyw-corpus/Bible.txt | lt-proc hyw.automorf.bin | apertium-cleanstream -n > toks.txt
+count tokens: wc -l toks.txt
+count unknowns: grep -c '\*' toks.txt
+coverage = (tok - unk) / tok
+get unknowns: grep '\*' toks.txt | sort | uniq -c | sort -nr > unk.txt
+commit: git commit . -m "changes (or other message)"
+push: git push
+
+
+cat ../hyw-corpus/hyw.bibleOTNT.hycatholic.txt | apertium-destxt  | lt-proc hyw.automorf.bin | apertium-cleanstream -n > toks.txt
+
+
+hyw.bibleOTNT.asdvadzashunch   https://asdvadzashunch.blogspot.com/?m=1
+
+hyw.bibleOTNT.JW https://wol.jw.org/hyw/wol/binav/r487/lp-r/sbi1
+
+hyw.bibleNT.sacredtext  www.sacred-texts.com/bib/wb/armw
+
+hyw.bibleOTNT.hycatholic  hycatholic.ru/biblia
