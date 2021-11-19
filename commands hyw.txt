@@ -9,3 +9,6 @@ coverage = (tok - unk) / tok
 get unknowns: grep '\*' toks.txt | sort | uniq -c | sort -nr > unk.txt
 commit: git commit . -m "changes (or other message)"
 push: git push
+
+
+cat ../hyw-corpus/hyw.kantsasar.20211104.txt | apertium-destxt  | lt-proc hyw.automorf.bin | apertium-cleanstream -n > toks.txt
