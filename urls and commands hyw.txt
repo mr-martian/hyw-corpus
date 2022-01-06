@@ -2,7 +2,14 @@ All commands from apertium-hyw directory
 
 compile: make
 or make hyw.automorf.bin
-analyze Bible: cat ../hyw-corpus/Bible.txt | lt-proc hyw.automorf.bin | apertium-cleanstream -n > toks.txt
+
+analyze Bible: cat ../hyw-corpus/Bible_material/hyw.bibleOTNT.hycatholic/hyw.bibleOTNT.hycatholic.txt | lt-proc hyw.automorf.bin | apertium-cleanstream -n > toks.txt
+
+analyze newspaper: cat ../hyw-corpus/hyw.kantsasar.20211104.txt | lt-proc hyw.automorf.bin | apertium-cleanstream -n > toks.txt
+
+analyze Wikipedia: cat ../hyw-corpus/hyw.wpdump.20220101.txt.bz2 | lt-proc hyw.automorf.bin | apertium-cleanstream -n > toks.txt
+
+
 count tokens: wc -l toks.txt
 count unknowns: grep -c '\*' toks.txt
 coverage = (tok - unk) / tok
@@ -11,6 +18,7 @@ commit: git commit . -m "changes (or other message)"
 push: git push
 
 
-cat ../hyw-corpus/hyw.bibleOTNT.hycatholic.txt | apertium-destxt  | lt-proc hyw.automorf.bin | apertium-cleanstream -n > toks.txt
+
+
 
 
