@@ -7,8 +7,15 @@ analyze Bible: cat ../hyw-corpus/Bible_material/hyw.bibleOTNT.hycatholic/hyw.bib
 
 analyze newspaper: cat ../hyw-corpus/hyw.kantsasar.20211104.txt | lt-proc hyw.automorf.bin | apertium-cleanstream -n > toks.txt
 
-analyze Wikipedia:  sh coverage-ltproc.sh hyw.wpdump.20220101.txt.bz2 hyw.automorf.bin
-
+analyze Wikipedia: 
+ 1. First run this command
+	sh coverage-ltproc.sh hyw.wpdump.20220101.txt.bz2 hyw.automorf.bin
+ 2. Open the temp folder by running the following command
+	 open /tmp
+ 3. Find the filename of the parade file and copy the file name
+	e.g., the name could be "Hovsep.hyw.wpdump.parade.txt"
+ 4. Run the following command where PARADE is the name of the parade file
+	cat /tmp/PARADE | grep '\*' | sort | uniq -c | sort -rn > unks.txt
 
 count tokens: wc -l toks.txt
 count unknowns: grep -c '\*' toks.txt
