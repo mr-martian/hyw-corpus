@@ -7,7 +7,7 @@ analyze Bible: cat ../hyw-corpus/Bible_material/hyw.bibleOTNT.hycatholic/hyw.bib
 
 analyze newspaper: cat ../hyw-corpus/hyw.kantsasar.20211104.txt | lt-proc hyw.automorf.bin | apertium-cleanstream -n > toks.txt
 
-analyze Wikipedia: cat ../hyw-corpus/hyw.wpdump.20220101.txt.bz2 | lt-proc hyw.automorf.bin | apertium-cleanstream -n > toks.txt
+analyze Wikipedia:  sh coverage-ltproc.sh hyw.wpdump.20220101.txt.bz2 hyw.automorf.bin
 
 
 count tokens: wc -l toks.txt
