@@ -25,9 +25,6 @@ commit: git commit . -m "changes (or other message)"
 push: git push
 
 
-	sh coverage-ltproc.sh hye_test/hye.bible.catholic.reformed.txt hyw.automorf.bin
-
-
 
 
 

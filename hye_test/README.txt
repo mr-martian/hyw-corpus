@@ -1,7 +1,7 @@
 We tested our hyw parser on hye text
 
 * hye.bible.catholic.reformed.txt is a Bible that is written in hye and written in the reformed spelling. 
-	Retrieved from https://hycatholic.ru/biblio/%D5%A1%Dx5%BD%D5%BF%D5%BE%D5%A1%D5%AE%D5%A1%D5%B7%D5%B8%D6%82%D5%B6%D5%B9/
+	Retrieved from https://hycatholic.ru/biblio/աստվածաշունչ/
 	The site says that the edition is:
 		HOLY BIBLE Eastern Armenian - New Revision
 		ՄԱՅՐ ԱԹՈՌ Ս. ԷՋՄԻԱԾԻՆ

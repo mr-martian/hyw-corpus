@@ -4,3 +4,10 @@
 -e hyw.wpdump Thu Jan 6 20:19:42 PST 2022	 3233140/ 3562232	0
 -e hye.bible.catholic Fri Jan 7 18:07:18 PST 2022	 778774/ 831937	0
 -e hye.bible.catholic Fri Jan 7 18:08:43 PST 2022	 619937/ 775331	0
+-e hyw_armtdp-ud-train.txt Sat Jan 8 23:52:50 PST 2022	 66611/ 69728	0
+-e hyw_armtdp-ud-test.txt Sat Jan 8 23:53:16 PST 2022	 9699/ 10008	0
+-e hyw_armtdp-ud-dev.txt Sat Jan 8 23:54:21 PST 2022	 9299/ 9644	0
+-e hy_armtdp-ud-train.txt Sat Jan 8 23:54:43 PST 2022	 31151/ 41685	0
+-e hy_armtdp-ud-test.txt Sat Jan 8 23:55:01 PST 2022	 3939/ 5277	0
+-e hy_armtdp-ud-dev.txt Sat Jan 8 23:55:13 PST 2022	 3839/ 5301	0
+-e hy_bsut-ud-test.txt Sat Jan 8 23:55:33 PST 2022	 2339/ 3126	0
