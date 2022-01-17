@@ -1,18 +1,18 @@
 "<բռնութենէն>"
-	"բռնութիւն" n sg abl def
 	"բռնութիւն" n sg abl
 		"NP" sg def
+	"բռնութիւն" n sg abl def
 
 "<զաւակի>"
 	"զաւակ" n sg dat_gen
 
 "<Շմաւոնը>"
-	"Շմաւոն" n np ant sg def
-	"Շմաւոն" n np ant m sg def
+	"Շմաւոն" np ant m sg def
+	"Շմաւոն" np ant sg def
 
 "<հաղորդուեցաւ>"
-	"հաղորդել" v tv pass aor past pret p3 sg indc
-	"հաղորդուիլ" v iv pass aor past pret p3 sg indc
+	"հաղորդել" v tv pass past pret p3 sg indc
+	"հաղորդուիլ" v iv pass past pret p3 sg indc
 
 "<հրաւիրենք>"
 	"հրաւիրել" v tv pres p1 pl subj
@@ -20,25 +20,22 @@
 "<ձիւնամրրիկի>"
 	"*ձիւնամրրիկի"
 
-
 "<կրաւորականը>"
 	"կրաւորական" adj subst sg def
 
 "<անձնաւորութիւններու>"
 	"անձնաւորութիւն" n pl dat_gen
 
-
-
 "<կայուն>"
-	"կայ" n sg dat_gen def
 	"կայուն" adj
+	"կայ" n sg dat_gen def
 
 "<մէկէնիմէկ>"
 	"*մէկէնիմէկ"
 
 "<Սերովբէ>"
+	"Սերովբէ" np ant m sg
 	"սերովբէ" n sg
-	"Սերովբէ" n np ant m sg
 
 "<Նորաբաց>"
 	"*Նորաբաց"
@@ -47,46 +44,47 @@
 	"ներդրում" n sg def
 
 "<ՍԱՂԱԹԵԼԵԱՆ>"
-	"Սաղաթելեան" n np pat sg
+	"Սաղաթելեան" np cog sg
 
 "<Դասարանցիներուս>"
 	"*Դասարանցիներուս"
 
 "<Ընտրողներուն>"
-	"ընտրող" n pl dat_gen def
 	"ընտրել" v tv pprs subst pl dat_gen def
 	"ընտրող" adj subst pl dat_gen def
+	"ընտրող" n pl dat_gen def
 
 "<պարգեւեն>"
 	"պարգեւել" v tv pres p3 pl subj
 
 "<հիւսող>"
 	"հիւսել" v tv pprs
-	"հիւսուլ" v tv pprs
+	"հիւսող" n sg
 	"հիւսուլ" v iv pprs
 	"հիւսուլ" v iv_tv pprs
-	"հիւսող" n sg
+	"հիւսուլ" v tv pprs
 
 "<Ֆորում>"
 	"*Ֆորում"
 
 "<քիչերու>"
-	"քիչ" adv_adj subst pl dat_gen
+	"քիչ" adj subst pl dat_gen
+	"քիչ" adv subst pl dat_gen
 
 "<Մարկարէթ>"
 	"*Մարկարէթ"
 
 "<մեկներ>"
-	"մեկ" num subst pl
-	"մեկ" adj subst pl
-	"մեկին" adv subst pl
 	"մեկին" adj subst pl
-	"մեկնիլ" v iv evid
+	"մեկին" adv subst pl
 	"մեկնել" v tv evid
-	"մեկնել" v tv pres neg_ptcp
-	"մեկնիլ" v iv past impf neg_ptcp
 	"մեկնել" v tv past impf neg_ptcp
+	"մեկնել" v tv pres neg_ptcp
 	"մեկնել" v tv proh p2 sg
+	"մեկնիլ" v iv evid
+	"մեկնիլ" v iv past impf neg_ptcp
+	"մեկ" adj subst pl
+	"մեկ" num subst pl
 
 "<Ամրակուռ>"
 	"ամրակուռ" adj
@@ -107,7 +105,7 @@
 	"ծածանիլ" v iv past impf p3 sg subj
 
 "<մեծացող>"
-	"մեծանալ" v iv inch aor pprs
+	"մեծանալ" v iv inch pprs
 
 "<ճնշումներէ>"
 	"ճնշում" n pl abl
@@ -125,7 +123,7 @@
 	"փաստ" n pl dat_gen def
 
 "<դիմատետրին>"
-	"*դիմատետրին"
+	"դիմատետր" n sg dat_gen def
 
 "<Շմայթլի>"
 	"*Շմայթլի"
@@ -133,9 +131,8 @@
 "<Միջօ>"
 	"*Միջօ"
 
-
 "<կարգավիճակին>"
-	"*կարգավիճակին"
+	"կարգավիճակ" n sg dat_gen def
 
 "<ստուգակէտեր>"
 	"*ստուգակէտեր"
@@ -144,11 +141,11 @@
 	"կուրծք" n sg dat_gen def
 
 "<Սուրէն>"
-	"սուր" n sg abl def
+	"Սուրէն" np ant m sg
+	"Սուր" np ant sg abl def
+	"Սուր" np top sg abl def
 	"սուր" adj subst sg abl def
-	"Սուր" n np ant sg abl def
-	"Սուր" n np top sg abl def
-	"Սուրէն" n np ant m sg
+	"սուր" n sg abl def
 
 "<գործընթացք>"
 	"*գործընթացք"
@@ -168,13 +165,12 @@
 "<ՄԻՋԻՆՔԸ>"
 	"միջինք" n sg def
 
-
 "<ժողովուրդ>"
 	"ժողովուրդ" n sg
 
 "<ընդունած>"
-	"ընդունիլ" v iv_tv perf
 	"ընդունել" v tv perf
+	"ընդունիլ" v iv_tv perf
 
 "<աշխատասիրութեամբ>"
 	"աշխատասիրութիւն" n sg ins
@@ -195,8 +191,6 @@
 "<ամենաբուռն>"
 	"բուռն" adj sup
 
-
-
 "<բախտաւորուեցանք>"
 	"*բախտաւորուեցանք"
 
@@ -207,8 +201,8 @@
 	"*Հաւաթեան"
 
 "<ԲՆԱԿՈՂ>"
-	"բնակիլ" v iv pprs
 	"բնակել" v iv pprs
+	"բնակիլ" v iv pprs
 
 "<թէզը>"
 	"*թէզը"
@@ -240,12 +234,11 @@
 "<հարթակներում>"
 	"հարթակ" n pl loc
 
-
 "<թերիներով>"
 	"թերի" adv subst pl ins
-	"ութ" num subst pl dat_gen def
-		"NP" pl ins
 	"թեր" n sg dat_gen def
+		"NP" pl ins
+	"ութ" num subst pl dat_gen def
 		"NP" pl ins
 
 "<վե՛ր>"
@@ -253,8 +246,8 @@
 		"՛" punct
 
 "<Պատմողը>"
-	"պատմող" n sg def
 	"պատմել" v tv pprs subst sg def
+	"պատմող" n sg def
 
 "<ըսե՞ն>"
 	"ըսել" v tv pres p3 pl subj
@@ -263,10 +256,8 @@
 "<ապրանքանիշը>"
 	"*ապրանքանիշը"
 
-
-
 "<ԻՍԼԱՄԱԿԱՆ>"
-	"*ԻՍԼԱՄԱԿԱՆ"
+	"իսլամական" adj
 
 "<Փօլատեանը>"
 	"*Փօլատեանը"
@@ -276,9 +267,6 @@
 
 "<ծիածանը>"
 	"ծիածան" n sg def
-
-
-
 
 "<անձնասիրութիւնը>"
 	"անձնասիրութիւն" n sg def
@@ -293,24 +281,22 @@
 	"*Եաաքուպին"
 
 "<նշուեցաւ>"
-	"*նշուեցաւ"
+	"նշել" v tv pass past pret p3 sg indc
 
 "<վաստակած>"
-	"վաստակիլ" v iv perf
 	"վաստակել" v tv perf
-
-
+	"վաստակիլ" v iv perf
 
 "<ճաշով>"
 	"ճաշ" n sg ins
 
 "<սպառնալից>"
-	"սպառնալ" v iv ger sg abl
 	"սպառնալից" adj
+	"սպառնալ" v iv ger sg abl
 
 "<Ամանորին>"
+	"Ամանոր" np ant f sg dat_gen def
 	"ամանոր" n sg dat_gen def
-	"Ամանոր" n np ant f sg dat_gen def
 
 "<մետալակիրներ>"
 	"*մետալակիրներ"
@@ -328,12 +314,10 @@
 	"ուրտեղ" adv subst sg def
 		"՞" punct
 
-
-
 "<մոռցուին>"
 	"մոռնալ" v tv inch caus pass pres p3 pl subj
+	"մոռնալ" v tv inch pass pres p3 pl subj
 	"մոռցնել" v <tv caus pass pres p3 pl subj
-	"մոռնալ" v tv inch aor pass pres p3 pl subj
 	"մոռցուիլ" v iv pass pres p3 pl subj
 
 "<նշանախօսքերով>"
@@ -343,11 +327,11 @@
 	"ընդօրինակել" v tv pass perf
 
 "<վառեցէք>"
-	"վառիլ" v iv aor imp p2 pl
-	"վառել" v tv aor imp p2 pl
+	"վառել" v tv imp p2 pl
+	"վառիլ" v iv imp p2 pl
 
 "<փոխանակումով>"
-	"*փոխանակումով"
+	"փոխանակում" n sg ins
 
 "<մեծութեամբ>"
 	"մեծութիւն" n sg ins
@@ -356,15 +340,16 @@
 	"պարագլուխ" n sg
 
 "<վերացումն>"
-	"վերացում" n sg def
 	"վերացումն" n sg
+	"վերացում" n sg def
 
 "<նաւդ>"
 	"նաւ" n sg px2sg
 
 "<բնակի>"
-	"բնակ" noun_adj sg dat_gen
 	"բնակիլ" v iv pres p3 sg subj
+	"բնակ" adj subst sg dat_gen
+	"բնակ" n sg dat_gen
 
 "<մարմնիս>"
 	"մարմին" n sg dat_gen px1sg
@@ -382,25 +367,25 @@
 	"*բեմավարը"
 
 "<չստեղծուեցաւ>"
-	"ստեղծել" v tv pass aor past pret p3 sg indc neg
-	"ստեղծուիլ" v iv pass aor past pret p3 sg indc neg
+	"ստեղծել" v tv pass past pret p3 sg indc neg
+	"ստեղծուիլ" v iv pass past pret p3 sg indc neg
 
 "<դիմացան>"
-	"դիմանալ" v iv inch aor past pret p3 pl indc
+	"դիմանալ" v iv inch past pret p3 pl indc
 
 "<պահեցողութիւն>"
 	"պահեցողութիւն" n sg
 
 "<Յաջորդին>"
-	"յաջորդ" noun_adj sg dat_gen def
+	"յաջորդ" adj subst sg dat_gen def
+	"յաջորդ" n sg dat_gen def
 
 "<պրծած>"
-	"պրծիլ" v iv perf
 	"պրծել" v tv perf
+	"պրծիլ" v iv perf
 
 "<Աշոցք>"
 	"*Աշոցք"
-
 
 "<մարտնչումներուն>"
 	"*մարտնչումներուն"
@@ -421,41 +406,36 @@
 	"*Կրպէեանի"
 
 "<հնարումը>"
-	"հնար" n sg loc def
 	"հնար" adj subst sg loc def
+	"հնար" n sg loc def
 
 "<յանձնաժողովները>"
 	"յանձնաժողով" n pl def
 
-
-
 "<հրադադարները>"
-	"*հրադադարները"
+	"հրադադար" n pl def
 
 "<բախումները>"
 	"բախում" n pl def
 
 "<Պահպանիչով>"
+	"պահպանիչ" adj subst sg ins
 	"պահպանիչ" n sg ins
-	"պահպանիչ" noun_adj sg ins
-
-
-
 
 "<ՊԱՏՈՎ>"
 	"պատ" n sg ins
 
 "<պատուելով>"
-	"պատիլ" v tv pass ger sg ins
 	"պատել" v tv pass ger sg ins
+	"պատիլ" v tv pass ger sg ins
 	"պատուել" v tv ger sg ins
 
 "<գաղութացում>"
 	"*գաղութացում"
 
 "<Գեղեցիկ>"
+	"Գեղեցիկ" np ant f sg
 	"գեղեցիկ" adj
-	"Գեղեցիկ" n np ant f sg
 
 "<Տրտոյի>"
 	"*Տրտոյի"
@@ -470,15 +450,15 @@
 	"խճողում" n sg dat_gen
 
 "<կողմնորոշուեցայ>"
-	"կողմնորոշուիլ" v iv pass aor past pret p1 sg indc
+	"կողմնորոշուիլ" v iv pass past pret p1 sg indc
 
 "<չունիմ>"
-	"ունիմ" v tv pres p1 sg subj neg
-	"ունիմ" v tv pres p1 sg indc neg
-	"ունիլ" v tv pres p1 sg subj neg
-	"ունիլ" v tv pres p1 sg indc neg
-	"ունել" v tv pres p1 sg subj neg
 	"ունել" v tv pres p1 sg indc neg
+	"ունել" v tv pres p1 sg subj neg
+	"ունիլ" v tv pres p1 sg indc neg
+	"ունիլ" v tv pres p1 sg subj neg
+	"ունիմ" v tv pres p1 sg indc neg
+	"ունիմ" v tv pres p1 sg subj neg
 
 "<հաղորդագդութեամբ>"
 	"*հաղորդագդութեամբ"
@@ -490,9 +470,9 @@
 	"կարեւոր" adj sup subst sg def
 
 "<չտպուեցաւ>"
-	"տպիլ" v iv pass aor past pret p3 sg indc neg
-	"տպել" v tv pass aor past pret p3 sg indc neg
-	"տպուիլ" v iv pass aor past pret p3 sg indc neg
+	"տպել" v tv pass past pret p3 sg indc neg
+	"տպիլ" v iv pass past pret p3 sg indc neg
+	"տպուիլ" v iv pass past pret p3 sg indc neg
 
 "<Անիեւին>"
 	"*Անիեւին"
@@ -503,15 +483,14 @@
 "<գործատեղիս>"
 	"գործատեղի" n sg px1sg
 
-
-
 "<Հաֆէզ>"
 	"*Հաֆէզ"
 
 "<պարունակողը>"
-	"պարունակող" noun_adj sg def
-	"պարունակիլ" v iv pprs subst sg def
 	"պարունակել" v tv pprs subst sg def
+	"պարունակիլ" v iv pprs subst sg def
+	"պարունակող" adj subst sg def
+	"պարունակող" n sg def
 
 "<հաշուեգլուխը>"
 	"*հաշուեգլուխը"
@@ -531,8 +510,6 @@
 "<վերապրածի>"
 	"վերապրիլ" v iv perf subst sg dat_gen
 
-
-
 "<պլոքներն>"
 	"*պլոքներն"
 
@@ -551,8 +528,6 @@
 "<Ամենասուրբ>"
 	"ամենասուրբ" adj
 	"սուրբ" adj sup
-
-
 
 "<ԽՄԲԱՊԵՏՈՒՀԻՆ>"
 	"*ԽՄԲԱՊԵՏՈՒՀԻՆ"
@@ -580,8 +555,8 @@
 	"վազել" v iv pprs
 
 "<տեսականօրէն>"
-	"տեսական" n_adj adv
 	"տեսականօրէն" adv
+	"տեսական" adv
 
 "<կարծէր>"
 	"կարծել" v iv_tv past impf p3 sg subj
@@ -591,8 +566,6 @@
 
 "<գիտնագէտ>"
 	"*գիտնագէտ"
-
-
 
 "<աճպարար>"
 	"աճպարար" n sg
@@ -607,9 +580,9 @@
 	"*Պէյսթէյթ"
 
 "<մէջինը>"
-	"մէջ" post subs sg def
 	"մէջ" post sg dat_gen def
 		"NP" sg def
+	"մէջ" post subs sg def
 
 "<բարեկենդան>"
 	"բարեկենդան" n sg
@@ -631,13 +604,13 @@
 	"արտասուք" n sg px1sg
 
 "<դատապարտեցին>"
-	"դատապարտել" v tv aor past pret p3 pl indc
+	"դատապարտել" v tv past pret p3 pl indc
 
 "<ՍԻՐՈՎ>"
-	"սիր" n sg ins
-	"սիր" noun_adj sg ins
+	"Սիրով" np ant f sg
 	"սէր" n sg ins
-	"Սիրով" n np ant f sg
+	"սիր" adj subst sg ins
+	"սիր" n sg ins
 
 "<անձեռմխելիութեան>"
 	"*անձեռմխելիութեան"
@@ -660,8 +633,6 @@
 "<Ողբերգութեան>"
 	"ողբերգութիւն" n sg dat_gen
 
-
-
 "<իրաւաառարկայական>"
 	"*իրաւաառարկայական"
 
@@ -669,19 +640,18 @@
 	"մոլութիւն" n pl abl
 
 "<ՆՇԱՆԱԿԵՑ>"
-	"նշանակել" v tv aor past pret p3 sg indc
+	"նշանակել" v tv past pret p3 sg indc
 
 "<Տասներկու>"
 	"տասերկու" def_meaningless num
-
 
 "<թագաւորէն>"
 	"թագաւոր" n sg abl def
 
 "<հետեւողներու>"
-	"հետեւող" n pl dat_gen
-	"հետեւիլ" v iv_tv pprs subst pl dat_gen
 	"հետեւել" v iv_tv pprs subst pl dat_gen
+	"հետեւիլ" v iv_tv pprs subst pl dat_gen
+	"հետեւող" n pl dat_gen
 
 "<օգտագործուեց>"
 	"*օգտագործուեց"
@@ -699,8 +669,6 @@
 "<քանակն>"
 	"քանակ" n sg def
 
-
-
 "<վերնագրին>"
 	"վերնագիր" n sg dat_gen def
 
@@ -712,8 +680,8 @@
 		"՞" punct
 
 "<ՅԻՇԱՏԱԿԱԾ>"
-	"յիշատակիլ" v iv perf
 	"յիշատակել" v tv perf
+	"յիշատակիլ" v iv perf
 
 "<սիրուած>"
 	"սիրել" v tv pass perf
@@ -732,7 +700,7 @@
 	"*ամրակայումը"
 
 "<Եփրեմեան>"
-	"Եփրեմեան" n np pat sg
+	"Եփրեմեան" np cog sg
 
 "<անուանման>"
 	"անուանում" n sg dat_gen
@@ -749,20 +717,16 @@
 "<ցնցել>"
 	"ցնցել" v tv ger
 
-
-
 "<կենայ>"
 	"կենալ" v iv inch pres p3 sg subj
 
-
-
 "<սիրահարներս>"
-	"սիրահար" n pl px1sg
 	"սիրահար" adj subst pl px1sg
+	"սիրահար" n pl px1sg
 
 "<արաբերէն>"
-	"արաբ" n pl abl def
 	"արաբերէն" adj
+	"արաբ" n pl abl def
 
 "<ԲՈՒԺՄԱՆ>"
 	"բուժում" n sg dat_gen
@@ -783,8 +747,8 @@
 	"*միացել"
 
 "<Դալարը>"
+	"Դալար" np ant f sg def
 	"դալար" adj subst sg def
-	"Դալար" n np ant f sg def
 
 "<ապտակ>"
 	"ապտակ" n sg
@@ -798,9 +762,8 @@
 "<Ռոմանիոյ>"
 	"*Ռոմանիոյ"
 
-
 "<Ուզեցի>"
-	"ուզել" v tv aor past pret p1 sg indc
+	"ուզել" v tv past pret p1 sg indc
 
 "<արձանագրումներէն>"
 	"*արձանագրումներէն"
@@ -812,17 +775,16 @@
 	"ոգի" n sg dat_gen def
 
 "<յաղթէ>"
-	"յաղթ" adj subst sg abl
 	"յաղթել" v tv imp p2 sg
 	"յաղթել" v tv pres p3 sg subj
+	"յաղթ" adj subst sg abl
 
 "<յոգնակիներու>"
-	"յոգնակի" noun_adj pl dat_gen
+	"յոգնակի" adj subst pl dat_gen
+	"յոգնակի" n pl dat_gen
 
 "<թոշակօք>"
 	"*թոշակօք"
-
-
 
 "<Աստուածն>"
 	"աստուած" n sg def
@@ -841,8 +803,8 @@
 	"քահանայապետական" adj
 
 "<Ստացանք>"
-	"ստանալ" v tv inch aor past pret p1 pl indc
-	"ստանալ" v iv inch aor past pret p1 pl indc
+	"ստանալ" v iv inch past pret p1 pl indc
+	"ստանալ" v tv inch past pret p1 pl indc
 
 "<նպատակի>"
 	"նպատակ" n sg dat_gen
@@ -868,7 +830,7 @@
 	"դամբանական" n sg
 
 "<ԱՇԽԱՏԱԿԱԶՄԻ>"
-	"*ԱՇԽԱՏԱԿԱԶՄԻ"
+	"աշխատակազմ" n sg dat_gen
 
 "<դասագրքին>"
 	"դասագիրք" n sg dat_gen def
@@ -880,8 +842,8 @@
 	"2.2" num
 
 "<Նահապետը>"
+	"Նահապետ" np ant m sg def
 	"նահապետ" n sg def
-	"Նահապետ" n np ant m sg def
 
 "<աքսոր>"
 	"աքսոր" n sg
@@ -897,13 +859,13 @@
 	"*փոխադրամիջոցը"
 
 "<Սեւակի>"
+	"Սեւակ" np ant m sg dat_gen
 	"սեւակ" adj subst sg dat_gen
-	"Սեւակ" n np ant m sg dat_gen
 
 "<աւելցուցեր>"
-	"աւելել" v tv caus aor evid
-	"աւելնալ" v iv inch caus aor evid
-	"աւելցնել" v <tv caus aor evid
+	"աւելել" v tv caus evid
+	"աւելնալ" v iv inch caus evid
+	"աւելցնել" v <tv caus evid
 
 "<տրտումերես>"
 	"տրտումերես" adj
@@ -913,8 +875,6 @@
 
 "<հեռագիրին>"
 	"հեռագիր" n sg dat_gen def
-
-
 
 "<Ոսկեծղիկ>"
 	"*Ոսկեծղիկ"
@@ -926,10 +886,10 @@
 	"հնձել" v tv pres p2 sg subj
 
 "<հոլովէ>"
-	"հոլով" n sg abl
-	"հոլովիլ" v iv imp p2 sg
 	"հոլովել" v tv imp p2 sg
 	"հոլովել" v tv pres p3 sg subj
+	"հոլովիլ" v iv imp p2 sg
+	"հոլով" n sg abl
 
 "<Լըմուաը>"
 	"*Լըմուաը"
@@ -944,13 +904,15 @@
 	"հպարտութիւն" n sg ins
 
 "<Հեռո՜ւ>"
-	"հեռ" n sg dat_gen
+	"հեռու" adj
 		"՜" punct
-	"հեռու" adv_adj
+	"հեռու" adv
 		"՜" punct
 	"հեռու" n sg
 		"՜" punct
 	"հեռու" post sg
+		"՜" punct
+	"հեռ" n sg dat_gen
 		"՜" punct
 
 "<կարգաւորումներով>"
@@ -960,7 +922,7 @@
 	"*գաղափարակից"
 
 "<իրականացան>"
-	"իրականանալ" v iv inch aor past pret p3 pl indc
+	"իրականանալ" v iv inch past pret p3 pl indc
 
 "<ԵՐԵՍՓՈԽԱՆՆԵՐՈՒՆ>"
 	"երեսփոխան" n pl dat_gen def
@@ -976,8 +938,7 @@
 	"գիւղաքաղաք" n pl abl def
 
 "<ՆԵՐԱՌՈՒԵՑԱՒ>"
-	"*ՆԵՐԱՌՈՒԵՑԱՒ"
-
+	"ներառել" v tv pass past pret p3 sg indc
 
 "<ԵՐԵՔԸ>"
 	"երեք" num subst sg def
@@ -986,8 +947,8 @@
 	"*Մարսիլիան"
 
 "<ամէնի>"
-	"ամէն" qnt dat_gen
 	"ամէն" n sg dat_gen
+	"ամէն" prn qnt dat_gen
 
 "<վրիպանքը>"
 	"վրիպանք" n sg def
@@ -996,16 +957,13 @@
 	"հայկաբան" n sg
 
 "<պատասխանեց>"
-	"պատասխանել" v tv aor past pret p3 sg indc
-
+	"պատասխանել" v tv past pret p3 sg indc
 
 "<օրակարգերէ>"
 	"օրակարգ" n pl abl
 
 "<ԸՆԹԱՑՔԷՆ>"
 	"ընթացք" n sg abl def
-
-
 
 "<լոյսընծայման>"
 	"*լոյսընծայման"
@@ -1026,19 +984,18 @@
 	"քաղաք" n pl def
 
 "<սարքէն>"
-	"սարք" n sg abl def
 	"սարիք" n sg abl def
+	"սարք" n sg abl def
 
 "<քիլոկրամ>"
 	"քիլոկրամ" n sg
 
 "<Սարիկ>"
+	"Սարիկ" np ant f sg
 	"սարիկ" n sg
-	"Սարիկ" n np ant f sg
 
 "<այրուածքներու>"
 	"*այրուածքներու"
-
 
 "<տուփիկէն>"
 	"*տուփիկէն"
@@ -1074,8 +1031,6 @@
 "<ունկերուն>"
 	"ունկ" n pl dat_gen def
 
-
-
 "<տրուէր>"
 	"տրուիլ" v iv pass past impf p3 sg subj
 
@@ -1086,17 +1041,16 @@
 	"հոն" adv
 
 "<ՀԱՍՏԱՏԷ>"
-	"հաստատ" adj subst sg abl
-	"հաստատիլ" v iv imp p2 sg
 	"հաստատել" v tv imp p2 sg
 	"հաստատել" v tv pres p3 sg subj
+	"հաստատիլ" v iv imp p2 sg
+	"հաստատ" adj subst sg abl
 
 "<ՈՏՔԸ>"
 	"ոտք" n sg def
 
 "<Աունէն>"
 	"*Աունէն"
-
 
 "<գնդակոծումներով>"
 	"*գնդակոծումներով"
@@ -1116,7 +1070,6 @@
 "<աղբէր>"
 	"աղբել" v tv past impf p3 sg subj
 
-
 "<2629>"
 	"2629" num
 
@@ -1124,7 +1077,8 @@
 	"անդրադարձ" n pl abl def
 
 "<երգիծաբանը>"
-	"երգիծաբան" noun_adj sg def
+	"երգիծաբան" adj subst sg def
+	"երգիծաբան" n sg def
 
 "<ընկերվարականները>"
 	"ընկերվարական" n pl def
@@ -1150,7 +1104,6 @@
 "<անցնէք>"
 	"անցընել" v tv caus proh p2 pl
 
-
 "<վարանքը>"
 	"վարանք" n sg def
 
@@ -1161,7 +1114,7 @@
 	"քերականութիւն" n sg def
 
 "<սգացինք>"
-	"սգալ" v iv aor past pret p1 pl indc
+	"սգալ" v iv past pret p1 pl indc
 
 "<յիշուածները>"
 	"յիշել" v iv pass perf subst pl def
@@ -1179,8 +1132,8 @@
 	"թանգարան" n pl dat_gen
 
 "<հետեւիր>"
-	"հետեւիլ" v iv_tv pres neg_ptcp
 	"հետեւիլ" v iv_tv imp p2 sg
+	"հետեւիլ" v iv_tv pres neg_ptcp
 	"հետեւիլ" v iv_tv proh p2 sg
 
 "<վերաձեւաւորուի>"
@@ -1190,28 +1143,27 @@
 	"սրահ" n sg
 
 "<տապալած>"
-	"տապալիլ" v iv perf
-	"տապալել" v tv perf
 	"տապալած" adj
-
+	"տապալել" v tv perf
+	"տապալիլ" v iv perf
 
 "<Մեղրի՞ն>"
-	"մեղր" n sg dat_gen def
+	"Մեղրի" np ant f sg def
 		"՞" punct
-	"Մեղրի" n np ant f sg def
+	"մեղր" n sg dat_gen def
 		"՞" punct
 
 "<ծնողի>"
-	"ծնող" n sg dat_gen
-	"ծնող" noun_adj sg dat_gen
 	"ծնիլ" v iv pprs subst sg dat_gen
+	"ծնող" adj subst sg dat_gen
+	"ծնող" n sg dat_gen
 
 "<Լաթաքիան>"
-	"*Լաթաքիան"
+	"Լաթաքիա" np top sg def
 
 "<Փակելով>"
-	"փակիլ" v iv ger sg ins
 	"փակել" v tv ger sg ins
+	"փակիլ" v iv ger sg ins
 
 "<հայհոյելով>"
 	"հայհոյել" v tv ger sg ins
@@ -1241,12 +1193,11 @@
 "<անտեսուի>"
 	"անտեսել" v tv pass pres p3 sg subj
 
-
 "<գուրգուրար>"
-	"գուրգուրալ" v tv pres neg_ptcp
 	"գուրգուրալ" v tv past impf neg_ptcp
-	"գուրգուրալ" v tv proh p2 sg
 	"գուրգուրալ" v tv past impf p3 sg subj
+	"գուրգուրալ" v tv pres neg_ptcp
+	"գուրգուրալ" v tv proh p2 sg
 
 "<չորսօրեայ>"
 	"*չորսօրեայ"
@@ -1262,7 +1213,7 @@
 
 "<անմահն>"
 	"անմահ" adj subst sg def
-	"անմահ" n np ant f sg def
+	"անմահ" np ant f sg def
 
 "<բարգաւաճիլ>"
 	"բարգաւաճիլ" v iv ger
@@ -1285,7 +1236,6 @@
 "<էշրեֆիէի>"
 	"*էշրեֆիէի"
 
-
 "<յաւերժականը>"
 	"յաւերժական" adj subst sg def
 
@@ -1303,12 +1253,12 @@
 	"մխիթարուիլ" v iv pass past impf p3 pl subj
 
 "<ընթերցողները>"
-	"ընթերցող" n pl def
 	"ընթերցել" v iv_tv pprs subst pl def
+	"ընթերցող" n pl def
 
 "<երկփեղկումները>"
-	"երկփեղկում" n pl def
 	"երկփեղկումն" n pl def
+	"երկփեղկում" n pl def
 
 "<երկրորդի>"
 	"երկրորդ" adj subst sg dat_gen
@@ -1321,10 +1271,10 @@
 	"փրփուր" n pl abl def
 
 "<ակադեմիոյ>"
-	"*ակադեմիոյ"
+	"ակադեմիա" n sg dat_gen
 
 "<անհետացան>"
-	"անհետանալ" v iv inch aor past pret p3 pl indc
+	"անհետանալ" v iv inch past pret p3 pl indc
 
 "<ՀԱԴՐՈՒԹ>"
 	"*ՀԱԴՐՈՒԹ"
@@ -1347,7 +1297,6 @@
 
 "<մանուկներին>"
 	"մանուկ" n pl dat_gen def
-
 
 "<Անգոյ>"
 	"անգոյ" adj
@@ -1377,10 +1326,10 @@
 	"տոմս" n sg def
 
 "<սասանելու>"
-	"սասանիլ" v iv ger fut_ptcp
 	"սասանել" v tv ger fut_ptcp
-	"սասանիլ" v iv ger sg dat_gen
 	"սասանել" v tv ger sg dat_gen
+	"սասանիլ" v iv ger fut_ptcp
+	"սասանիլ" v iv ger sg dat_gen
 
 "<գաւառակէն>"
 	"գաւառակ" n sg abl def
@@ -1401,10 +1350,11 @@
 	"բաժնել" v tv pres p3 pl subj
 
 "<տեղակայելուն>"
-	"*տեղակայելուն"
+	"տեղակայել" v tv ger sg dat_gen def
 
 "<երկարը>"
-	"երկար" noun_adj sg def
+	"երկար" adj subst sg def
+	"երկար" n sg def
 
 "<Բանուոր>"
 	"բանուոր" n sg
@@ -1431,14 +1381,13 @@
 	"դաշինք" n sg
 		"՛" punct
 
-
 "<Ծանօթացայ>"
-	"ծանօթանալ" v tv inch aor past pret p1 sg indc
+	"ծանօթանալ" v tv inch past pret p1 sg indc
 
 "<համակարգէ>"
-	"համակարգ" adj subst sg abl
 	"համակարգել" v tv imp p2 sg
 	"համակարգել" v tv pres p3 sg subj
+	"համակարգ" adj subst sg abl
 
 "<Էլիաս>"
 	"*Էլիաս"
@@ -1448,11 +1397,7 @@
 	"կեր" n sg def
 
 "<ե՛րբ>"
-	"երբ" adv
-		"՛" punct
-	"երբ" n sg
-		"՛" punct
-
+	"*ե՛րբ"
 
 "<հրաշագործելու>"
 	"հրաշագործել" v tv ger fut_ptcp
@@ -1475,19 +1420,19 @@
 	"ցեղապետ" n pl dat_gen def
 
 "<Խեչօ>"
-	"Խեչօ" n np ant m sg
+	"Խեչօ" np ant m sg
 
 "<ՎԱՃԱՌՄԱՆ>"
 	"վաճառում" n sg dat_gen
 
 "<ամրանը>"
-	"*ամրանը"
+	"ամրան" n sg def
 
 "<Լիոթարը>"
 	"*Լիոթարը"
 
 "<անցուցինք>"
-	"անցընել" v tv caus aor past pret p1 pl indc
+	"անցընել" v tv caus past pret p1 pl indc
 
 "<մզկիթներուն>"
 	"մզկիթ" n pl dat_gen def
@@ -1497,17 +1442,18 @@
 	"միացեալ" n sg
 
 "<Ռոնալտօն>"
-	"*Ռոնալտօն"
+	"Ռոնալտօ" np cog sg def
 
 "<զեկուցումներով>"
 	"զեկուցում" n pl ins
 
-
 "<չյաջողեցաւ>"
-	"յաջողիլ" v iv aor past pret p3 sg indc neg
+	"յաջողիլ" v iv past pret p3 sg indc neg
 
 "<Խուլուսի>"
-	"խուլ" noun_adj sg dat_gen px1sg
+	"խուլ" adj subst sg dat_gen px1sg
+		"NP" sg dat_gen
+	"խուլ" n sg dat_gen px1sg
 		"NP" sg dat_gen
 
 "<ՄՈԼՏՈՎԱՅԻ>"
@@ -1517,11 +1463,11 @@
 	"*իւրայիններուն"
 
 "<ցուցաբերեն>"
-	"*ցուցաբերեն"
+	"ցուցաբերել" v tv pres p3 pl subj
 
 "<հաստատուելով>"
-	"հաստատիլ" v iv pass ger sg ins
 	"հաստատել" v tv pass ger sg ins
+	"հաստատիլ" v iv pass ger sg ins
 	"հաստատուիլ" v iv pass ger sg ins
 
 "<մենիշխանութիւն>"
@@ -1540,11 +1486,10 @@
 	"բանտ" n sg dat_gen
 
 "<իսլամին>"
-	"*իսլամին"
+	"իսլամ" n sg dat_gen def
 
 "<չդադարեց>"
 	"*չդադարեց"
-
 
 "<հետեւին>"
 	"հետեւիլ" v iv_tv pres p3 pl subj
@@ -1553,8 +1498,9 @@
 	"մոլախոտ" n sg
 
 "<Սիմոնեան>"
-	"սիմոնեան" noun_adj sg
-	"Սիմոնեան" n np pat sg
+	"Սիմոնեան" np cog sg
+	"սիմոնեան" adj
+	"սիմոնեան" n sg
 
 "<ցատկելով>"
 	"ցատկել" v tv ger sg ins
@@ -1564,7 +1510,6 @@
 
 "<անձնաւորութիւններով>"
 	"անձնաւորութիւն" n pl ins
-
 
 "<մոնիզմի>"
 	"*մոնիզմի"
@@ -1578,7 +1523,7 @@
 	"քննել" v tv ger sg dat_gen
 
 "<չհանդիսացան>"
-	"հանդիսանալ" v tv inch aor past pret p3 pl indc neg
+	"հանդիսանալ" v tv inch past pret p3 pl indc neg
 
 "<ՔԱՅԼՈՎ>"
 	"քայլ" n sg ins
@@ -1587,7 +1532,7 @@
 	"դժուարութիւն" n sg def
 
 "<շնորհեցին>"
-	"շնորհել" v tv aor past pret p3 pl indc
+	"շնորհել" v tv past pret p3 pl indc
 
 "<մատենադարան>"
 	"մատենադարան" n sg
@@ -1596,11 +1541,12 @@
 	"արմատ" n pl def
 
 "<պատրաստելով>"
-	"պատրաստիլ" v iv ger sg ins
 	"պատրաստել" v tv ger sg ins
+	"պատրաստիլ" v iv ger sg ins
 
 "<ՏԵՂԱՇԱՐԺԸ>"
-	"տեղաշարժ" noun_adj sg def
+	"տեղաշարժ" adj subst sg def
+	"տեղաշարժ" n sg def
 
 "<վարժապետն>"
 	"վարժապետ" n sg def
@@ -1621,26 +1567,25 @@
 	"գիտակցիլ" v iv past impf p3 pl subj
 
 "<չպատահեցաւ>"
-	"պատահիլ" v iv aor past pret p3 sg indc neg
+	"պատահիլ" v iv past pret p3 sg indc neg
 
 "<320>"
 	"320" num
 
 "<վեցերորդը>"
-	"վեց" num ord subst sg def
 	"վեցերորդ" adj subst sg def
+	"վեց" num ord subst sg def
 
 "<հաղորդակցման>"
 	"*հաղորդակցման"
 
-
 "<Անուանի>"
-	"անուանի" adj
 	"անուանիլ" v iv pres p3 sg subj
+	"անուանի" adj
 
 "<եկամուտի>"
-	"եկամուտ" n sg dat_gen
 	"եկամուտ" adj subst sg dat_gen
+	"եկամուտ" n sg dat_gen
 
 "<ենթակառուցուածքներուն>"
 	"*ենթակառուցուածքներուն"
@@ -1652,8 +1597,8 @@
 	"բեկոր" n sg
 
 "<չձերբակալուեցաւ>"
-	"ձերբակալել" v tv pass aor past pret p3 sg indc neg
-	"ձերբակալուիլ" v iv pass aor past pret p3 sg indc neg
+	"ձերբակալել" v tv pass past pret p3 sg indc neg
+	"ձերբակալուիլ" v iv pass past pret p3 sg indc neg
 
 "<Պոլակը>"
 	"*Պոլակը"
@@ -1683,20 +1628,21 @@
 "<հէյ>"
 	"*հէյ"
 
-
 "<բիւրեղացուց>"
-	"բիւրեղանալ" v iv inch caus aor past pret p3 sg indc
-	"բիւրեղացնել" v <tv caus aor past pret p3 sg indc
+	"բիւրեղանալ" v iv inch caus past pret p3 sg indc
+	"բիւրեղացնել" v <tv caus past pret p3 sg indc
 
 "<համբերէ>"
-	"համբ" n pl abl
 	"համբերել" v iv imp p2 sg
 	"համբերել" v iv pres p3 sg subj
+	"համբ" n pl abl
 
 "<դոկտորականի>"
 	"*դոկտորականի"
 
 "<ներուն>"
+	"երբ" prn itg subst pl dat_gen def
+	"երբ" prn rel subst pl dat_gen def
 	"ին" num subst pl dat_gen def
 	"ներ" n sg dat_gen def
 
@@ -1713,16 +1659,17 @@
 	"ճամբորդութիւն" n sg
 
 "<Զուարթնոցի>"
-	"*Զուարթնոցի"
+	"զուարթնոց" n sg dat_gen
 
 "<դարբնոց>"
 	"դարբնոց" n sg
+
 
 "<իշխան>"
 	"իշխան" n sg
 
 "<ԶԱՐԳԱՑՈՂ>"
-	"զարգանալ" v iv inch aor pprs
+	"զարգանալ" v iv inch pprs
 
 "<ցցած>"
 	"ցցել" v tv perf
@@ -1748,14 +1695,11 @@
 "<քաղբանտարկեալներ>"
 	"*քաղբանտարկեալներ"
 
-
-
 "<կիրքի>"
 	"կիրք" n sg dat_gen
 
 "<վարձած>"
 	"վարձել" v tv perf
-
 
 "<կաշկանդի>"
 	"*կաշկանդի"
@@ -1764,14 +1708,14 @@
 	"*հիւսիսամերիկեան"
 
 "<գլխատեցին>"
-	"գլխատել" v tv aor past pret p3 pl indc
+	"գլխատել" v tv past pret p3 pl indc
 
 "<ԸՆԹԱՑՔԻ>"
 	"ընթացք" n sg dat_gen
 
 "<թողուի>"
-	"թողուլ" v tv past impf p1 sg subj
 	"թողուիլ" v iv pass pres p3 sg subj
+	"թողուլ" v tv past impf p1 sg subj
 
 "<վերընտրուիլ>"
 	"վերընտրել" v tv pass ger
@@ -1793,11 +1737,11 @@
 		"՞" punct
 
 "<Տաւրոսից>"
+	"Տաւրոս" np ant m sg abl
 	"տաւրոս" n sg abl
-	"Տաւրոս" n np ant m sg abl
 
 "<ջարդեցին>"
-	"ջարդել" v tv aor past pret p3 pl indc
+	"ջարդել" v tv past pret p3 pl indc
 
 "<ՁԻՈՒ>"
 	"ձի" n sg dat_gen
@@ -1814,12 +1758,10 @@
 "<չնախաձեռնող>"
 	"նախաձեռնել" v tv pprs neg
 
-
-
 "<Լա՛ց>"
-	"լաց" n sg
+	"լալ" v iv imp p2 sg
 		"՛" punct
-	"լալ" v iv aor imp p2 sg
+	"լաց" n sg
 		"՛" punct
 
 "<ներկրումը>"
@@ -1850,7 +1792,9 @@
 	"*դեռահասութեան"
 
 "<կազմակերպմանը>"
-	"*կազմակերպմանը"
+	"կազմակերպում" n sg dat_gen
+		"NP" sg def
+	"կազմակերպում" n sg dat_gen def
 
 "<կրակը>"
 	"կրակ" n sg def
@@ -1858,13 +1802,12 @@
 "<փաստաթուղթերուն>"
 	"փաստաթուղթ" n pl dat_gen def
 
-
 "<քանդակագործութեան>"
 	"քանդակագործութիւն" n sg dat_gen
 
 "<ԳՈՒՄԱՐՈՒՄԸ>"
-	"գումար" n sg loc def
 	"գումարում" n sg def
+	"գումար" n sg loc def
 
 "<կողմակից>"
 	"*կողմակից"
@@ -1873,7 +1816,7 @@
 	"կտտանք" n pl dat_gen
 
 "<հիմքերով>"
-	"*հիմքերով"
+	"հիմք" n pl ins
 
 "<կարկաչահոս>"
 	"*կարկաչահոս"
@@ -1891,6 +1834,7 @@
 	"բանիլ" v iv past impf p3 sg subj
 
 "<ՈՐՈՆՑՄԷ>"
+	"որ" prn itg pl abl
 	"որ" prn rel pl abl
 
 "<չգիտակցող>"
@@ -1910,8 +1854,8 @@
 	"ներքնապէս" adv
 
 "<թագաւորէք>"
-	"թագաւորել" v iv proh p2 pl
 	"թագաւորել" v iv pres p2 pl subj
+	"թագաւորել" v iv proh p2 pl
 
 "<Դիպուկահար>"
 	"*Դիպուկահար"
@@ -1920,7 +1864,8 @@
 	"գալ" v iv perf subst sg dat_gen
 
 "<հիմնայատակ>"
-	"հիմնայատակ" adv_adj
+	"հիմնայատակ" adj
+	"հիմնայատակ" adv
 
 "<հաստատակամտութեամբ>"
 	"*հաստատակամտութեամբ"
@@ -1928,16 +1873,16 @@
 "<կոլարը>"
 	"*կոլարը"
 
-
 "<Այնթապ>"
-	"*Այնթապ"
+	"Այնթապ" np top sg
 
 "<որի>"
 	"որի" n sg
+	"որ" prn itg sg gen_dat
 	"որ" prn rel sg gen_dat
 
 "<Ժողովրդային>"
-	"*Ժողովրդային"
+	"ժողովրդային" adj
 
 "<2292>"
 	"2292" num
@@ -1955,9 +1900,10 @@
 	"գաղթել" v iv ger sg ins
 
 "<շահողը>"
-	"շահող" noun_adj sg def
-	"շահիլ" v iv pprs subst sg def
 	"շահել" v iv pprs subst sg def
+	"շահիլ" v iv pprs subst sg def
+	"շահող" adj subst sg def
+	"շահող" n sg def
 
 "<կանխազգուշութիւնը>"
 	"*կանխազգուշութիւնը"
@@ -1979,17 +1925,16 @@
 	"հովիտ" n pl def
 
 "<Կծծիներուն>"
-	"կծծի" noun_adj pl dat_gen def
 	"կծիծ" n sg dat_gen def
 		"NP" pl dat_gen def
+	"կծծի" adj subst pl dat_gen def
+	"կծծի" n pl dat_gen def
 
 "<զգուշաւորութեամբ>"
 	"զգուշաւորութիւն" n sg ins
 
 "<յանցանքներու>"
 	"յանցանք" n pl dat_gen
-
-
 
 "<դրսի>"
 	"դուրս" adv subst sg dat_gen
@@ -1998,17 +1943,18 @@
 	"*պապային"
 
 "<ՍԵԼԻՄԵԱՆԻՆ>"
-	"*ՍԵԼԻՄԵԱՆԻՆ"
+	"Սելիմեան" np cog sg dat_gen def
 
 "<ներկայացուելէ>"
-	"ներկայել" v tv caus pass ger sg abl
 	"ներկայանալ" v iv inch caus pass ger sg abl
+	"ներկայանալ" v iv inch pass ger sg abl
 	"ներկայացնել" v <tv caus pass ger sg abl
-	"ներկայանալ" v iv inch aor pass ger sg abl
 	"ներկայացուիլ" v iv pass ger sg abl
+	"ներկայել" v tv caus pass ger sg abl
 
 "<քառակուսիին>"
-	"քառակուսի" noun_adj sg dat_gen def
+	"քառակուսի" adj subst sg dat_gen def
+	"քառակուսի" n sg dat_gen def
 
 "<ընկերակիցներն>"
 	"ընկերակից" n pl def
@@ -2019,15 +1965,13 @@
 "<Կենացներից>"
 	"կենաց" n pl abl
 
-
 "<փորձերս>"
-	"փորձ" n pl px1sg
 	"փորձ" adj subst pl px1sg
+	"փորձ" n pl px1sg
 
 "<դիտող>"
 	"դիտել" v tv pprs
 	"դիտող" n sg
-
 
 "<Թոբիքա>"
 	"*Թոբիքա"
@@ -2036,7 +1980,7 @@
 	"պատրիարք" n sg
 
 "<զլացան>"
-	"զլանալ" v tv inch aor past pret p3 pl indc
+	"զլանալ" v tv inch past pret p3 pl indc
 
 "<անունը>"
 	"անուն" n sg def
@@ -2053,11 +1997,8 @@
 "<դասաւորելէ>"
 	"դասաւորել" v tv ger sg abl
 
-
-
 "<անդամակցեց>"
-	"անդամակցել" v tv aor past pret p3 sg indc
-
+	"անդամակցել" v tv past pret p3 sg indc
 
 "<հողերէ>"
 	"հող" n pl abl
@@ -2075,7 +2016,7 @@
 	"*դիմակազերծումը"
 
 "<չընդառաջեցին>"
-	"ընդառաջել" v iv aor past pret p3 pl indc neg
+	"ընդառաջել" v iv past pret p3 pl indc neg
 
 "<հետազօտութիւններու>"
 	"հետազօտութիւն" n pl dat_gen
@@ -2093,20 +2034,18 @@
 	"միաձուլել" v tv perf
 
 "<ամրացանք>"
-	"ամրանալ" v iv inch aor past pret p1 pl indc
+	"ամրանալ" v iv inch past pret p1 pl indc
 
 "<խռնուեցան>"
-	"խռնիլ" v iv pass aor past pret p3 pl indc
-	"խռնել" v tv pass aor past pret p3 pl indc
-	"խռնուիլ" v iv pass aor past pret p3 pl indc
+	"խռնել" v tv pass past pret p3 pl indc
+	"խռնիլ" v iv pass past pret p3 pl indc
+	"խռնուիլ" v iv pass past pret p3 pl indc
 
 "<000>"
 	"000" num
 
 "<շուրջբոլորը>"
 	"*շուրջբոլորը"
-
-
 
 "<Նսէյր>"
 	"*Նսէյր"
@@ -2120,17 +2059,17 @@
 
 "<բծեր>"
 	"բիծ" n pl
-	"բուծ" n pl
 	"բծել" v tv evid
-	"բծել" v tv pres neg_ptcp
 	"բծել" v tv past impf neg_ptcp
+	"բծել" v tv pres neg_ptcp
 	"բծել" v tv proh p2 sg
+	"բուծ" n pl
 
 "<կռուէի>"
 	"կռել" v tv pass past impf p1 sg subj
+	"կռուել" v tv past impf p1 sg subj
 	"կռուիլ" v iv pass past impf p1 sg subj
 	"կռուիլ" v iv past impf p1 sg subj
-	"կռուել" v tv past impf p1 sg subj
 
 "<պատկերային>"
 	"*պատկերային"
@@ -2149,7 +2088,7 @@
 	"քննել" v tv ger sg dat_gen
 
 "<ԱՐՑԱԽԷՆ>"
-	"Արցախ" n np top sg abl def
+	"Արցախ" np top sg abl def
 
 "<ըլլա՛ս>"
 	"ըլլալ" v iv pres p2 sg subj
@@ -2160,8 +2099,6 @@
 
 "<ՎԱՐԴԱՊԵՏ>"
 	"վարդապետ" n sg
-
-
 
 "<Սուրմալու>"
 	"*Սուրմալու"
@@ -2179,8 +2116,8 @@
 	"ուխտել" v tv pres p1 pl subj
 
 "<պարտքերէ>"
-	"պարտք" n pl abl
 	"պարտիք" n pl abl
+	"պարտք" n pl abl
 
 "<դռներն>"
 	"դուռ" n pl def
@@ -2189,9 +2126,7 @@
 	"*անձեռնմխելիութենէ"
 
 "<Կարպիս>"
-	"Կարպիս" n np ant m sg
-
-
+	"Կարպիս" np ant m sg
 
 "<բարոյականութեան>"
 	"բարոյականութիւն" n sg dat_gen
@@ -2207,8 +2142,8 @@
 	"արձանագրուիլ" v iv pass past impf p1 sg subj
 
 "<ԻՇԽԱՆ>"
+	"Իշխան" np ant m sg
 	"իշխան" n sg
-	"Իշխան" n np ant m sg
 
 "<կիսամեակի>"
 	"*կիսամեակի"
@@ -2221,7 +2156,7 @@
 	"պարզել" v tv ger sg dat_gen
 
 "<հաւատաց>"
-	"հաւատալ" v iv aor past pret p3 sg indc
+	"հաւատալ" v iv past pret p3 sg indc
 
 "<քանդէին>"
 	"քանդել" v tv past impf p3 pl subj
@@ -2231,8 +2166,6 @@
 
 "<սնունդի>"
 	"սնունդ" n sg dat_gen
-
-
 
 "<երգացանկին>"
 	"*երգացանկին"
@@ -2262,17 +2195,17 @@
 	"*բացատրողականութիւնը"
 
 "<Իւրի>"
-	"Իւրի" n np ant m sg
+	"Իւրի" np ant m sg
 
 "<ԹԻՖԼԻՍ>"
-	"*ԹԻՖԼԻՍ"
+	"Թիֆլիս" np top sg
 
 "<2664>"
 	"2664" num
 
 "<հիմերով>"
-	"հիմ" n pl ins
 	"հիմ" adv subst pl ins
+	"հիմ" n pl ins
 
 "<կենդրոնական>"
 	"կենդրոնական" adj
@@ -2287,12 +2220,10 @@
 	"սովորութիւն" n pl dat_gen
 
 "<կոմիտէի>"
-	"*կոմիտէի"
+	"կոմիտէ" n sg dat_gen
 
 "<ցարերը>"
 	"ցար" n pl def
-
-
 
 "<Փակումին>"
 	"փակում" n sg dat_gen def
@@ -2301,14 +2232,14 @@
 	"հետեւանք" n sg def
 
 "<Հայրիկէն>"
+	"Հայրիկ" np ant m sg abl def
 	"հայրիկ" n sg abl def
-	"Հայրիկ" n np ant m sg abl def
 
 "<յաճախորդներէդ>"
 	"յաճախորդ" n pl abl px2sg
 
 "<Շուշանիկը>"
-	"Շուշանիկ" n np ant f sg def
+	"Շուշանիկ" np ant f sg def
 
 "<56>"
 	"56" num
@@ -2329,17 +2260,17 @@
 	"հասկնալ" v tv inch pres p1 pl subj
 
 "<ԱՐԺԱՆԱՑՈՒՑԱԾ>"
-	"արժանանալ" v iv inch caus aor perf
-	"արժանացնել" v <tv caus aor perf
+	"արժանանալ" v iv inch caus perf
+	"արժանացնել" v <tv caus perf
 
 "<կիներն>"
-	"կին" n pl def
 	"իկ" n sg dat_gen def
 		"NP" pl def
+	"կին" n pl def
 
 "<լուսաւորուի>"
-	"լուսաւորիլ" v iv pass pres p3 sg subj
 	"լուսաւորել" v tv pass pres p3 sg subj
+	"լուսաւորիլ" v iv pass pres p3 sg subj
 	"լուսաւորուիլ" v iv pass pres p3 sg subj
 
 "<մագիստրոսականի>"
@@ -2355,11 +2286,12 @@
 	"տեղահանել" v tv pass perf subst pl dat_gen def
 
 "<զինուեցան>"
-	"զինել" v tv pass aor past pret p3 pl indc
-	"զինուիլ" v iv pass aor past pret p3 pl indc
+	"զինել" v tv pass past pret p3 pl indc
+	"զինուիլ" v iv pass past pret p3 pl indc
 
 "<մեղադրէ>"
-	"մեղադիր" noun_adj sg abl
+	"մեղադիր" adj subst sg abl
+	"մեղադիր" n sg abl
 	"մեղադրել" v tv imp p2 sg
 	"մեղադրել" v tv pres p3 sg subj
 
@@ -2367,18 +2299,19 @@
 	"ռազմագէտ" n pl def
 
 "<ստացուածը>"
-	"ստել" v iv caus pass perf subst sg def
-	"ստանալ" v tv inch caus pass perf subst sg def
 	"ստանալ" v iv inch caus pass perf subst sg def
+	"ստանալ" v iv inch pass perf subst sg def
+	"ստանալ" v tv inch caus pass perf subst sg def
+	"ստանալ" v tv inch pass perf subst sg def
 	"ստացնել" v <tv caus pass perf subst sg def
-	"ստանալ" v tv inch aor pass perf subst sg def
-	"ստանալ" v iv inch aor pass perf subst sg def
+	"ստել" v iv caus pass perf subst sg def
 
 "<Ժիրայրի>"
-	"Ժիրայր" n np ant m sg dat_gen
+	"Ժիրայր" np ant m sg dat_gen
 
 "<զինուորականեր>"
-	"զինուորական" noun_adj pl
+	"զինուորական" adj subst pl
+	"զինուորական" n pl
 
 "<ուժգնութեան>"
 	"ուժգնութիւն" n sg dat_gen
@@ -2390,14 +2323,13 @@
 	"բոյլ" n sg dat_gen def
 
 "<չգնեցին>"
-	"գնել" v tv aor past pret p3 pl indc neg
+	"գնել" v tv past pret p3 pl indc neg
 
 "<խանութեան>"
 	"*խանութեան"
 
 "<տրամաբանութենէ>"
 	"տրամաբանութիւն" n sg abl
-
 
 "<սկսնակ>"
 	"սկսնակ" n sg
@@ -2409,12 +2341,12 @@
 	"օրակարգ" n sg abl
 
 "<հասկացողի>"
-	"հասկանալ" v tv inch aor pprs subst sg dat_gen
+	"հասկանալ" v tv inch pprs subst sg dat_gen
 
 "<ԱՅՑԵԼՈՒԹԵՆԷՆ>"
-	"այցելութիւն" n sg abl def
 	"այցելութիւն" n sg abl
 		"NP" sg def
+	"այցելութիւն" n sg abl def
 
 "<հանդիպումէն>"
 	"հանդիպում" n sg abl def
@@ -2423,7 +2355,7 @@
 	"մերձեցում" n sg def
 
 "<պսակեց>"
-	"պսակել" v tv aor past pret p3 sg indc
+	"պսակել" v tv past pret p3 sg indc
 
 "<սուփիէկթ>"
 	"*սուփիէկթ"
@@ -2441,19 +2373,21 @@
 	"ցոյց" n pl
 
 "<ՍԻՄՈՆԵԱՆԸ>"
-	"սիմոնեան" noun_adj sg def
-	"Սիմոնեան" n np pat sg def
+	"Սիմոնեան" np cog sg def
+	"սիմոնեան" adj subst sg def
+	"սիմոնեան" n sg def
 
 "<Արեւելցին>"
 	"արեւելից" adj subst sg dat_gen def
-	"արեւելցի" noun_adj sg def
+	"արեւելցի" adj subst sg def
+	"արեւելցի" n sg def
 
 "<ինքնաշխատութիւնները>"
 	"*ինքնաշխատութիւնները"
 
 "<շէնցուցին>"
-	"շէննալ" v iv inch caus aor past pret p3 pl indc
-	"շէնցնել" v <tv caus aor past pret p3 pl indc
+	"շէննալ" v iv inch caus past pret p3 pl indc
+	"շէնցնել" v <tv caus past pret p3 pl indc
 
 "<Դաւանանքի>"
 	"դաւանանք" n sg dat_gen
@@ -2469,7 +2403,6 @@
 "<գործավայրս>"
 	"*գործավայրս"
 
-
 "<Պարիխանեանը>"
 	"*Պարիխանեանը"
 
@@ -2479,12 +2412,8 @@
 "<կիրառութեամբ>"
 	"կիրառութիւն" n sg ins
 
-
-
 "<ցեխարձակել>"
 	"*ցեխարձակել"
-
-
 
 "<հրամայէ>"
 	"հրամայել" v tv imp p2 sg
@@ -2500,7 +2429,7 @@
 	"աւանդութիւն" n sg
 
 "<Ժընեւէն>"
-	"*Ժընեւէն"
+	"Ժընեւ" np top sg abl def
 
 "<քաղաքացիները>"
 	"քաղաքացի" n pl def
@@ -2521,16 +2450,16 @@
 	"*իրաւակիրառ"
 
 "<յոգնած>"
-	"յոգնիլ" v iv perf
 	"յոգնած" adj
+	"յոգնիլ" v iv perf
 
 "<Յետամնաց>"
 	"յետամնաց" adj
 
 "<չարչարէ>"
-	"չարչարիլ" v iv imp p2 sg
 	"չարչարել" v tv imp p2 sg
 	"չարչարել" v tv pres p3 sg subj
+	"չարչարիլ" v iv imp p2 sg
 
 "<դիմադրելու>"
 	"դիմադրել" v iv ger fut_ptcp
@@ -2555,11 +2484,11 @@
 	"երգել" v tv pprs subst pl abl
 
 "<մոռցած>"
-	"մոռնալ" v tv inch aor perf
+	"մոռնալ" v tv inch perf
 
 "<չտողանցէին>"
-	"տողանցիլ" v iv past impf p3 pl subj neg
 	"տողանցել" v iv past impf p3 pl subj neg
+	"տողանցիլ" v iv past impf p3 pl subj neg
 
 "<շնորհաւոր>"
 	"շնորհաւոր" adj
@@ -2571,33 +2500,31 @@
 	"*վերանկախացումէ"
 
 "<Սեւրն>"
-	"*Սեւրն"
+	"Սեւր" np top sg def
 
 "<չունի՞նք>"
-	"ունիմ" v tv pres p1 pl subj neg
-		"՞" punct
-	"ունիմ" v tv pres p1 pl indc neg
-		"՞" punct
-	"ունիլ" v tv pres p1 pl subj neg
-		"՞" punct
-	"ունիլ" v tv pres p1 pl indc neg
+	"ունել" v tv pres p1 pl indc neg
 		"՞" punct
 	"ունել" v tv pres p1 pl subj neg
 		"՞" punct
-	"ունել" v tv pres p1 pl indc neg
+	"ունիլ" v tv pres p1 pl indc neg
+		"՞" punct
+	"ունիլ" v tv pres p1 pl subj neg
+		"՞" punct
+	"ունիմ" v tv pres p1 pl indc neg
+		"՞" punct
+	"ունիմ" v tv pres p1 pl subj neg
 		"՞" punct
 
 "<Անհամբեր>"
 	"անհամբեր" adj
 
 "<շինէք>"
-	"շինել" v tv proh p2 pl
 	"շինել" v tv pres p2 pl subj
+	"շինել" v tv proh p2 pl
 
 "<բազմած>"
 	"բազմիլ" v iv perf
-
-
 
 "<ՆԱՀԱՆԳԻՆ>"
 	"նահանգ" n sg dat_gen def
@@ -2615,14 +2542,15 @@
 	"մտահոգութիւն" n sg def
 
 "<օծեալն>"
-	"օծեալ" noun_adj sg def
 	"օծեալն" n sg
+	"օծեալ" adj subst sg def
+	"օծեալ" n sg def
 
 "<գարնանային>"
 	"գարնանային" adj
 
 "<ԱՒՍՏՐԱԼԻԱ>"
-	"*ԱՒՍՏՐԱԼԻԱ"
+	"Աւստրալիա" np top sg
 
 "<Մաքճինը>"
 	"*Մաքճինը"
@@ -2632,18 +2560,17 @@
 	"յաղթուիլ" v iv pass perf
 
 "<Էմմա>"
-	"Էմմա" n np ant f sg
+	"Էմմա" np ant f sg
 
 "<վերաշինուին>"
 	"վերաշինել" v tv pass pres p3 pl subj
 
 "<Դառնանք>"
-	"դառնալ" v tv pres p1 pl subj
 	"դառնալ" v iv pres p1 pl subj
+	"դառնալ" v tv pres p1 pl subj
 
 "<Խաթամին>"
 	"*Խաթամին"
-
 
 "<ՄՐՑՈՒՄԷՆ>"
 	"մրցում" n sg abl def
@@ -2665,14 +2592,13 @@
 	"*փորձաքննութեան"
 
 "<խաղաղապահներուն>"
-	"*խաղաղապահներուն"
+	"խաղաղապահ" adj subst pl dat_gen def
 
 "<նախատօնակի>"
 	"նախատօնակ" n sg dat_gen
 
 "<գնահատեցին>"
-	"գնահատել" v tv aor past pret p3 pl indc
-
+	"գնահատել" v tv past pret p3 pl indc
 
 "<Ճըպրանէն>"
 	"*Ճըպրանէն"
@@ -2683,14 +2609,13 @@
 "<ֆրանսա>"
 	"ֆրանսա" n sg
 
-
 "<Նակամուրան>"
 	"*Նակամուրան"
 
 "<Կրնայի՞>"
-	"կրնամ" v iv past impf p1 sg subj
-		"՞" punct
 	"կրնամ" v iv past impf p1 sg indc
+		"՞" punct
+	"կրնամ" v iv past impf p1 sg subj
 		"՞" punct
 
 "<պահանջագիրներու>"
@@ -2712,8 +2637,7 @@
 	"նաւ" n pl ins
 
 "<հանդիսութիւններով>"
-	"*հանդիսութիւններով"
-
+	"հանդիսութիւն" n pl ins
 
 "<խողխողիլ>"
 	"*խողխողիլ"
@@ -2722,9 +2646,9 @@
 	"*զինում"
 
 "<Ինչո՞վ>"
-	"ինչ" n sg ins
+	"ինչ" prn itg ins
 		"՞" punct
-	"ինչ" prn rel sg ins
+	"ինչ" prn rel ins
 		"՞" punct
 
 "<պիտի՛>"
@@ -2732,9 +2656,9 @@
 		"՛" punct
 
 "<մոխրացնելով>"
-	"մոխրել" v tv caus ger sg ins
 	"մոխրանալ" v iv inch caus ger sg ins
 	"մոխրացնել" v <tv caus ger sg ins
+	"մոխրել" v tv caus ger sg ins
 
 "<Խօսքերու>"
 	"խօսք" n pl dat_gen
@@ -2746,12 +2670,10 @@
 	"*ալարկոտ"
 
 "<զարմանալի՜>"
-	"զարմանալ" v iv inch ger sg dat_gen
-		"՜" punct
 	"զարմանալի" adj
 		"՜" punct
-
-
+	"զարմանալ" v iv inch ger sg dat_gen
+		"՜" punct
 
 "<նախարարութիւնները>"
 	"նախարարութիւն" n pl def
@@ -2764,7 +2686,6 @@
 
 "<ծախսերուն>"
 	"ծախս" n pl dat_gen def
-
 
 "<հրահանգչային>"
 	"*հրահանգչային"
@@ -2788,24 +2709,22 @@
 	"ճակատագրել" v tv pass perf
 
 "<նշանուեցաւ>"
-	"նշանել" v tv pass aor past pret p3 sg indc
-	"նշանուիլ" v iv pass aor past pret p3 sg indc
+	"նշանել" v tv pass past pret p3 sg indc
+	"նշանուիլ" v iv pass past pret p3 sg indc
 
 "<վերջաւորութիւն>"
 	"վերջաւորութիւն" n sg
 
 "<համավարակներու>"
-	"*համավարակներու"
+	"համավարակ" n pl dat_gen
 
 "<ճիւղաւորուող>"
-	"ճիւղաւորիլ" v tv pass pprs
 	"ճիւղաւորել" v tv pass pprs
+	"ճիւղաւորիլ" v tv pass pprs
 	"ճիւղաւորուիլ" v iv pass pprs
 
 "<վերամարմնաւորեցին>"
 	"*վերամարմնաւորեցին"
-
-
 
 "<հռչակման>"
 	"*հռչակման"
@@ -2814,20 +2733,21 @@
 	"*մանրակէն"
 
 "<Ադոնցի>"
-	"Ադոնց" n np pat sg dat_gen
+	"Ադոնց" np cog sg dat_gen
 
 "<համակուի>"
-	"համակիլ" v iv pass pres p3 sg subj
 	"համակել" v tv pass pres p3 sg subj
+	"համակիլ" v iv pass pres p3 sg subj
 	"համակուիլ" v iv pass pres p3 sg subj
 
 "<ԻՆՉՊԷՍ>"
-	"ինչպէս" adv
+	"ինչպէս" prn itg
+	"ինչպէս" prn rel
 
 "<ոչնչացուին>"
 	"ոչնչանալ" v iv inch caus pass pres p3 pl subj
+	"ոչնչանալ" v iv inch pass pres p3 pl subj
 	"ոչնչացնել" v <tv caus pass pres p3 pl subj
-	"ոչնչանալ" v iv inch aor pass pres p3 pl subj
 
 "<հռետորաբանութիւնն>"
 	"*հռետորաբանութիւնն"
@@ -2847,28 +2767,27 @@
 "<արտացոլացնել>"
 	"արտացոլացնել" v <tv caus ger
 
-
 "<մղուիր>"
-	"մղիլ" v iv pass pres neg_ptcp
-	"մղել" v tv pass pres neg_ptcp
-	"մղուիլ" v iv pass pres neg_ptcp
-	"մղիլ" v iv pass imp p2 sg
 	"մղել" v tv pass imp p2 sg
-	"մղուիլ" v iv pass imp p2 sg
-	"մղիլ" v iv pass proh p2 sg
+	"մղել" v tv pass pres neg_ptcp
 	"մղել" v tv pass proh p2 sg
+	"մղիլ" v iv pass imp p2 sg
+	"մղիլ" v iv pass pres neg_ptcp
+	"մղիլ" v iv pass proh p2 sg
+	"մղուիլ" v iv pass imp p2 sg
+	"մղուիլ" v iv pass pres neg_ptcp
 	"մղուիլ" v iv pass proh p2 sg
 
 "<յառաջացուցին>"
-	"յառաջել" v iv caus aor past pret p3 pl indc
-	"յառաջանալ" v iv inch caus aor past pret p3 pl indc
-	"յառաջացնել" v <tv caus aor past pret p3 pl indc
+	"յառաջանալ" v iv inch caus past pret p3 pl indc
+	"յառաջացնել" v <tv caus past pret p3 pl indc
+	"յառաջել" v iv caus past pret p3 pl indc
 
 "<Սովորութիւնն>"
 	"սովորութիւն" n sg def
 
 "<Անթիլիասին>"
-	"*Անթիլիասին"
+	"Անթիլիաս" np top sg dat_gen def
 
 "<առօրեայի>"
 	"առօրեայ" adj subst sg dat_gen
@@ -2879,7 +2798,6 @@
 "<ազատամարտիկներ>"
 	"*ազատամարտիկներ"
 
-
 "<ընդդիմութի՛ւնն>"
 	"ընդդիմութիւն" n sg def
 		"՛" punct
@@ -2887,13 +2805,11 @@
 "<ԲՈՒՐՄՈՒՆՔ>"
 	"բուրմունք" n sg
 
-
 "<անօգնական>"
 	"անօգնական" adj
 
 "<առարկայականութեան>"
 	"առարկայականութիւն" n sg dat_gen
-
 
 "<խճողուի>"
 	"խճողել" v tv pass pres p3 sg subj
@@ -2902,21 +2818,19 @@
 	"գրադատական" adj
 
 "<ՁԵՌՔ>"
+	"Ձեռք" np ant m sg
 	"ձեռք" n sg
-	"Ձեռք" n np ant m sg
 
 "<ծանրագոյնը>"
 	"ծանրագոյն" adj subst sg def
 
 "<կծկուիլ>"
-	"կծկիլ" v iv pass ger
 	"կծկել" v tv pass ger
+	"կծկիլ" v iv pass ger
 	"կծկուիլ" v iv pass ger
 
 "<Թզենի>"
 	"թզենի" n sg
-
-
 
 "<վաժութիւններու>"
 	"*վաժութիւններու"
@@ -2926,6 +2840,7 @@
 
 "<որսն>"
 	"որս" n sg def
+	"որ" prn itg pl acc def
 	"որ" prn rel pl acc def
 
 "<քացախ>"
@@ -2935,8 +2850,9 @@
 	"երփներանգ" adj
 
 "<Արծիւին>"
+	"Արծիւ" np ant f sg dat_gen def
+	"Արծիւ" np ant m sg dat_gen def
 	"արծիւ" n sg dat_gen def
-	"Արծիւ" n np ant f_m sg dat_gen def
 
 "<շեշտադրեցին>"
 	"*շեշտադրեցին"
@@ -2969,7 +2885,7 @@
 	"երախտագիտութիւն" n sg def
 
 "<Սերտեցի>"
-	"սերտել" v tv aor past pret p1 sg indc
+	"սերտել" v tv past pret p1 sg indc
 
 "<բզկտուած>"
 	"*բզկտուած"
@@ -2984,16 +2900,16 @@
 	"2229" num
 
 "<ՇԱԲԹՈՒԱՆ>"
-	"շաբաթ" n sg dat_gen def
 	"շաբաթ" n sg dat_gen
+	"շաբաթ" n sg dat_gen def
 
 "<հաստատումն>"
-	"հաստատ" adj subst sg loc def
 	"հաստատում" n sg def
+	"հաստատ" adj subst sg loc def
 
 "<չսրելու>"
-	"սրել" v tv ger neg sg dat_gen
 	"սրել" v tv ger fut_ptcp neg
+	"սրել" v tv ger neg sg dat_gen
 
 "<զովացնել>"
 	"զովանալ" v iv inch caus ger
@@ -3006,7 +2922,7 @@
 	"*քարիւղային"
 
 "<չպատերազմեցան>"
-	"պատերազմիլ" v iv aor past pret p3 pl indc neg
+	"պատերազմիլ" v iv past pret p3 pl indc neg
 
 "<հիմնաւորող>"
 	"հիմնաւորել" v tv pprs
@@ -3027,7 +2943,7 @@
 	"դդում" n sg dat_gen def
 
 "<յարեցան>"
-	"յարիլ" v iv aor past pret p3 pl indc
+	"յարիլ" v iv past pret p3 pl indc
 
 "<ԴԻՄՈՒՄ>"
 	"դիմում" n sg
@@ -3053,7 +2969,6 @@
 "<ՍԱՐՍԱՓ>"
 	"սարսափ" n sg
 
-
 "<սառ>"
 	"սառ" n sg
 
@@ -3069,13 +2984,11 @@
 "<Ծիծիքոսթասի>"
 	"*Ծիծիքոսթասի"
 
-
 "<դաշնագիրին>"
 	"դաշնագիր" n sg dat_gen def
 
 "<Արեմաթացի>"
 	"*Արեմաթացի"
-
 
 "<ասում>"
 	"*ասում"
@@ -3084,12 +2997,13 @@
 	"քսանին" num def ord
 
 "<չփոխանցուեցաւ>"
-	"փոխանցիլ" v iv pass aor past pret p3 sg indc neg
-	"փոխանցել" v tv pass aor past pret p3 sg indc neg
+	"փոխանցել" v tv pass past pret p3 sg indc neg
+	"փոխանցիլ" v iv pass past pret p3 sg indc neg
 
 "<Դա>"
+	"այդ" det med
+	"այդ" prn dem med sg nom_acc
 	"դա" adj
-	"այդ" prn dem med sg nom
 
 "<պարզէին>"
 	"պարզել" v tv past impf p3 pl subj
@@ -3106,21 +3020,19 @@
 "<քառորդին>"
 	"քառորդ" n sg dat_gen def
 
-
 "<ԹԹՈՒԱԾԻՆ>"
-	"թթուիլ" v iv pass perf subst sg dat_gen def
-	"թթուած" adj subst sg dat_gen def
 	"թթուածին" n sg
-
+	"թթուած" adj subst sg dat_gen def
+	"թթուիլ" v iv pass perf subst sg dat_gen def
 
 "<Քուրտօ>"
 	"*Քուրտօ"
 
 "<Պայտընէն>"
-	"*Պայտընէն"
+	"Պայտըն" np cog sg abl def
 
 "<գոյատեւման>"
-	"*գոյատեւման"
+	"գոյատեւում" n sg dat_gen
 
 "<Էլմիրա>"
 	"*Էլմիրա"
@@ -3140,12 +3052,11 @@
 "<Ձայները>"
 	"ձայն" n pl def
 
-
 "<Հայրերուն>"
 	"հայր" n pl dat_gen def
 
 "<Ռուբինեան>"
-	"Ռուբինեան" n np pat sg
+	"Ռուբինեան" np cog sg
 
 "<պատգամուած>"
 	"պատգամել" v tv pass perf
@@ -3189,7 +3100,7 @@
 	"*փոխազդեցութիւններէ"
 
 "<Ակնարկեց>"
-	"ակնարկել" v tv aor past pret p3 sg indc
+	"ակնարկել" v tv past pret p3 sg indc
 
 "<կացուցանէ>"
 	"կացուցանել" v tv imp p2 sg
@@ -3209,8 +3120,8 @@
 	"հայր" n sg dat_gen
 
 "<մատնուելով>"
-	"մատնիլ" v iv pass ger sg ins
 	"մատնել" v tv pass ger sg ins
+	"մատնիլ" v iv pass ger sg ins
 	"մատնուիլ" v iv pass ger sg ins
 
 "<առաստաղին>"
@@ -3221,7 +3132,7 @@
 		"՜" punct
 
 "<պարտադրուեցան>"
-	"պարտադրել" v tv pass aor past pret p3 pl indc
+	"պարտադրել" v tv pass past pret p3 pl indc
 
 "<Վերաձեւաւորումի>"
 	"*Վերաձեւաւորումի"
@@ -3236,11 +3147,12 @@
 	"գոհութիւն" n sg
 
 "<զօրակցութիւնը>"
-	"*զօրակցութիւնը"
+	"զօրակցութիւն" n sg def
 
 "<ՀՆԱՐՈՂ>"
 	"հնարել" v tv pprs
-	"հնարող" noun_adj sg
+	"հնարող" adj
+	"հնարող" n sg
 
 "<ձէթին>"
 	"ձէթ" n sg dat_gen def
@@ -3258,10 +3170,11 @@
 	"*թողել"
 
 "<յեղափոխականին>"
-	"յեղափոխական" noun_adj sg dat_gen def
+	"յեղափոխական" adj subst sg dat_gen def
+	"յեղափոխական" n sg dat_gen def
 
 "<չզգաստացաւ>"
-	"զգաստանալ" v iv inch aor past pret p3 sg indc neg
+	"զգաստանալ" v iv inch past pret p3 sg indc neg
 
 "<չձգես>"
 	"ձգել" v tv pres p2 sg subj neg
@@ -3274,7 +3187,6 @@
 
 "<ականատեսներէն>"
 	"ականատես" n pl abl def
-
 
 "<Մէջս>"
 	"մէջ" post sg px1sg
@@ -3293,11 +3205,13 @@
 	"լրագրող" n sg
 
 "<ՎԱՐԴԻՆԷ>"
+	"Վարդինէ" np ant f sg
+	"Վարդ" np ant f sg dat_gen def
+		"NP" sg abl
+	"Վարդ" np ant m sg dat_gen def
+		"NP" sg abl
 	"վարդ" n sg dat_gen def
 		"NP" sg abl
-	"Վարդ" n np ant f_m sg dat_gen def
-		"NP" sg abl
-	"Վարդինէ" n np ant f sg
 
 "<Ճուն>"
 	"*Ճուն"
@@ -3309,13 +3223,13 @@
 	"խնդակցութիւն" n sg def
 
 "<մտահոգիչ>"
-	"*մտահոգիչ"
+	"մտահոգիչ" adj
 
 "<չունենաք>"
 	"ունենալ" v iv inch pres p2 pl subj neg
 
 "<Գոմորի>"
-	"Գոմոր" n np top sg dat_gen
+	"Գոմոր" np top sg dat_gen
 
 "<Նաւապետ>"
 	"նաւապետ" n sg
@@ -3357,7 +3271,8 @@
 	"երկրորդական" adj
 
 "<Զոյգերը>"
-	"զոյգ" noun_adj pl def
+	"զոյգ" adj subst pl def
+	"զոյգ" n pl def
 
 "<286>"
 	"286" num
@@ -3373,44 +3288,43 @@
 	"ծառայեցնել" v <tv caus ger sg def
 
 "<սառին>"
-	"սառ" n sg dat_gen def
 	"սառիլ" v iv pres p3 pl subj
+	"սառ" n sg dat_gen def
 
 "<անյաջողակ>"
 	"անյաջողակ" adj
 
 "<Բարիին>"
+	"Բարի" np ant f sg dat_gen def
 	"բարի" adj subst sg dat_gen def
-	"Բարի" n np ant f sg dat_gen def
 
 "<վայրագութիւններին>"
 	"վայրագութիւն" n pl dat_gen def
 
 "<Արթին>"
-	"Արթի" n np ant m sg def
-	"Արթին" n np ant m sg
+	"Արթին" np ant m sg
+	"Արթի" np ant m sg def
 
 "<պարագայէն>"
 	"պարագայ" n sg abl def
 
 "<դժգոհին>"
-	"դժգոհ" adj subst sg dat_gen def
 	"դժգոհիլ" v iv pres p3 pl subj
+	"դժգոհ" adj subst sg dat_gen def
 
 "<ՓՈԽԱԴՐԱՄԻՋՈՑՆԵՐՈՒ>"
 	"*ՓՈԽԱԴՐԱՄԻՋՈՑՆԵՐՈՒ"
-
 
 "<դասընկերներս>"
 	"դասընկեր" n pl px1sg
 
 "<Ունիս>"
-	"ունիմ" v tv pres p2 sg subj
-	"ունիմ" v tv pres p2 sg indc
-	"ունիլ" v tv pres p2 sg subj
-	"ունիլ" v tv pres p2 sg indc
-	"ունել" v tv pres p2 sg subj
 	"ունել" v tv pres p2 sg indc
+	"ունել" v tv pres p2 sg subj
+	"ունիլ" v tv pres p2 sg indc
+	"ունիլ" v tv pres p2 sg subj
+	"ունիմ" v tv pres p2 sg indc
+	"ունիմ" v tv pres p2 sg subj
 
 "<Պիզ>"
 	"*Պիզ"
@@ -3421,6 +3335,7 @@
 "<ունենալուն>"
 	"ունենալ" v iv inch ger sg dat_gen def
 
+
 "<Համաիսլամական>"
 	"*Համաիսլամական"
 
@@ -3428,13 +3343,14 @@
 	"*անկողմակալ"
 
 "<սեւը>"
-	"սեւ" noun_adj sg def
+	"սեւ" adj subst sg def
+	"սեւ" n sg def
 
 "<անծածկելի>"
 	"*անծածկելի"
 
 "<Ասկերանը>"
-	"*Ասկերանը"
+	"Ասկերան" np top sg def
 
 "<ԿՈՉԵՐՈՒՆ>"
 	"կոչ" n pl dat_gen def
@@ -3467,15 +3383,14 @@
 "<հեռաձայնած>"
 	"հեռաձայնել" v tv perf
 
-
 "<Գույումճեանին>"
 	"*Գույումճեանին"
 
 "<ՍՈՒՐՈՎ>"
-	"սուր" n sg ins
+	"Սուր" np ant sg ins
+	"Սուր" np top sg ins
 	"սուր" adj subst sg ins
-	"Սուր" n np ant sg ins
-	"Սուր" n np top sg ins
+	"սուր" n sg ins
 
 "<կամարի>"
 	"կամար" n sg dat_gen
@@ -3536,7 +3451,7 @@
 	"անցեալ" adj subst sg def
 
 "<ՄԵՂՐԻԻ>"
-	"Մեղրի" n np ant f sg dat_gen
+	"Մեղրի" np ant f sg dat_gen
 
 "<Պուտի>"
 	"պուտ" n sg dat_gen
@@ -3545,20 +3460,20 @@
 	"դաշտ" n pl
 
 "<Գրաւողները>"
-	"գրաւող" noun_adj pl def
 	"գրաւել" v iv pprs subst pl def
+	"գրաւող" adj subst pl def
+	"գրաւող" n pl def
 
 "<ինըն>"
 	"ին" num def subst sg def
 
 "<ծերունի>"
+	"ծերունի" n sg
 	"ծեր" n sg dat_gen def
 		"NP" sg dat_gen
-	"ծերունի" n sg
 
 "<արհեստանոցները>"
 	"արհեստանոց" n pl def
-
 
 "<գոգցես>"
 	"գոգցես" adv
@@ -3597,7 +3512,6 @@
 "<Թոքմանեանի>"
 	"*Թոքմանեանի"
 
-
 "<Մօրիս>"
 	"մօր" n sg dat_gen px1sg
 
@@ -3609,13 +3523,13 @@
 	"զգացմունք" n pl ins
 
 "<փոխանցելէն>"
-	"փոխանցիլ" v iv ger sg abl def
 	"փոխանցել" v tv ger sg abl def
+	"փոխանցիլ" v iv ger sg abl def
 
 "<նախապատրաստէ>"
-	"նախապատրաստ" adj subst sg abl
 	"նախապատրաստել" v tv imp p2 sg
 	"նախապատրաստել" v tv pres p3 sg subj
+	"նախապատրաստ" adj subst sg abl
 
 "<դաշինքներէ>"
 	"դաշինք" n pl abl
@@ -3627,8 +3541,8 @@
 	"տնօրէն" n pl dat_gen def
 
 "<Գաբրիէլը>"
-	"Գաբրիէլ" n np ant sg def
-	"Գաբրիէլ" n np ant m sg def
+	"Գաբրիէլ" np ant m sg def
+	"Գաբրիէլ" np ant sg def
 
 "<Մուդրուսի>"
 	"*Մուդրուսի"
@@ -3647,7 +3561,8 @@
 	"զօրք" n pl dat_gen
 
 "<Ստեղծիչը>"
-	"ստեղծիչ" noun_adj sg def
+	"ստեղծիչ" adj subst sg def
+	"ստեղծիչ" n sg def
 
 "<թարգման>"
 	"թարգման" n sg
@@ -3657,7 +3572,6 @@
 
 "<անտարբերութիւն>"
 	"անտարբերութիւն" n sg
-
 
 "<ձեռնավարական>"
 	"*ձեռնավարական"
@@ -3693,14 +3607,17 @@
 "<Է՜>"
 	"Է" maj
 		"՜" punct
+	"երբ" prn itg subst sg abl
+		"՜" punct
+	"երբ" prn rel subst sg abl
+		"՜" punct
 	"է" min
 		"՜" punct
 	"է" vaux pres p3 sg indc
 		"՜" punct
 
 "<անասնապահութիւնը>"
-	"*անասնապահութիւնը"
-
+	"անասնապահութիւն" n sg def
 
 "<Մամուլ>"
 	"մամուլ" n sg
@@ -3724,20 +3641,19 @@
 	"*Սողոյեան"
 
 "<կոտրելէ>"
-	"կոտրիլ" v iv ger sg abl
 	"կոտրել" v tv ger sg abl
+	"կոտրիլ" v iv ger sg abl
 
 "<Ուիսքանսըն>"
 	"*Ուիսքանսըն"
-
 
 "<Սերունդէ>"
 	"սերունդ" n sg abl
 
 "<Դերերը>"
-	"դեր" noun_adj pl def
-	"Դեր" n np ant m pl def
-
+	"Դեր" np ant m pl def
+	"դեր" adj subst pl def
+	"դեր" n pl def
 
 "<եղբայրս>"
 	"եղբայր" n sg px1sg
@@ -3759,12 +3675,12 @@
 	"ներշնչում" n pl dat_gen
 
 "<մեխակներ>"
-	"մեխակ" n pl
 	"մեխակին" n pl
+	"մեխակ" n pl
 
 "<փոխադրուեցան>"
-	"փոխադրել" v tv pass aor past pret p3 pl indc
-	"փոխադրուիլ" v iv pass aor past pret p3 pl indc
+	"փոխադրել" v tv pass past pret p3 pl indc
+	"փոխադրուիլ" v iv pass past pret p3 pl indc
 
 "<հաւաքի>"
 	"հաւաք" n sg dat_gen
@@ -3779,16 +3695,15 @@
 	"*մարոնականներու"
 
 "<վճարէ>"
-	"վճար" n sg abl
 	"վճարել" v tv imp p2 sg
 	"վճարել" v tv pres p3 sg subj
+	"վճար" n sg abl
 
 "<որոշելով>"
 	"որոշել" v tv ger sg ins
 
-
 "<Ընթերցուեցաւ>"
-	"ընթերցել" v iv_tv pass aor past pret p3 sg indc
+	"ընթերցել" v iv_tv pass past pret p3 sg indc
 
 "<տիրանանք>"
 	"տիրանալ" v iv inch pres p1 pl subj
@@ -3817,9 +3732,9 @@
 	"կարճատեւ" adj
 
 "<կրնա՛նք>"
-	"կրնամ" v iv pres p1 pl subj
-		"՛" punct
 	"կրնամ" v iv pres p1 pl indc
+		"՛" punct
+	"կրնամ" v iv pres p1 pl subj
 		"՛" punct
 
 "<հանգրուաններուն>"
@@ -3835,14 +3750,14 @@
 	"խօսք" n pl px2sg
 
 "<Պարգեւները>"
+	"Պարգեւ" np ant m pl def
 	"պարգեւ" n pl def
-	"Պարգեւ" n np ant m pl def
 
 "<դառնացած>"
-	"դառնանալ" v iv inch aor perf
+	"դառնանալ" v iv inch perf
 
 "<հնարեց>"
-	"հնարել" v tv aor past pret p3 sg indc
+	"հնարել" v tv past pret p3 sg indc
 
 "<սիւներուն>"
 	"սիւն" n pl dat_gen def
@@ -3861,7 +3776,7 @@
 	"վիշապ" n sg def
 
 "<Աթէնքէն>"
-	"Աթէնք" n np top sg abl def
+	"Աթէնք" np top sg abl def
 
 "<ընդգրկումը>"
 	"ընդգրկում" n sg def
@@ -3870,8 +3785,9 @@
 	"*ԱՅԼԱԽՈՀ"
 
 "<օգնողներուն>"
-	"օգնող" noun_adj pl dat_gen def
 	"օգնել" v tv pprs subst pl dat_gen def
+	"օգնող" adj subst pl dat_gen def
+	"օգնող" n pl dat_gen def
 
 "<բուժեմ>"
 	"բուժել" v tv pres p1 sg subj
@@ -3949,7 +3865,7 @@
 	"նախատեսել" v tv pass perf
 
 "<Շիրակի>"
-	"Շիրակ" n np ant m sg dat_gen
+	"Շիրակ" np ant m sg dat_gen
 
 "<ԱՆՏԻՊ>"
 	"անտիպ" adj
@@ -3961,10 +3877,8 @@
 	"*յարգարժան"
 
 "<շտապին>"
-	"շտապ" n sg dat_gen def
 	"շտապիլ" v iv pres p3 pl subj
-
-
+	"շտապ" n sg dat_gen def
 
 "<Մաուրիցիօ>"
 	"*Մաուրիցիօ"
@@ -3976,8 +3890,8 @@
 	"նրբագեղ" adj
 
 "<կայացուցինք>"
-	"կայանալ" v iv inch caus aor past pret p1 pl indc
-	"կայացնել" v <tv caus aor past pret p1 pl indc
+	"կայանալ" v iv inch caus past pret p1 pl indc
+	"կայացնել" v <tv caus past pret p1 pl indc
 
 "<ոտքիս>"
 	"ոտք" n sg dat_gen px1sg
@@ -3987,10 +3901,10 @@
 	"կտրտուիլ" v iv pass perf subst pl def
 
 "<Լրատուական>"
-	"*Լրատուական"
+	"լրատուական" adj
 
 "<պարտադրեցինք>"
-	"պարտադրել" v tv aor past pret p1 pl indc
+	"պարտադրել" v tv past pret p1 pl indc
 
 "<Պատուաւոր>"
 	"պատուաւոր" adj
@@ -3999,7 +3913,7 @@
 	"*թուրքեւպոլշեւիկեան"
 
 "<Ցարական>"
-	"*Ցարական"
+	"ցարական" adj
 
 "<արձանագիրը>"
 	"արձանագիր" n sg def
@@ -4035,8 +3949,8 @@
 	"*Սաղաէլեան"
 
 "<գիտակից>"
-	"գիտակ" n sg abl
 	"գիտակից" adj
+	"գիտակ" n sg abl
 
 "<տերեւէն>"
 	"տերեւ" n sg abl def
@@ -4045,16 +3959,15 @@
 	"*բռնարարքներ"
 
 "<ՔԱՐՏԵՐՈՒՆ>"
-	"քարտ" n pl dat_gen def
 	"քարուտ" adj subst pl dat_gen def
+	"քարտ" n pl dat_gen def
 
 "<վնասուածքներուն>"
 	"*վնասուածքներուն"
 
-
-
 "<անկարողին>"
-	"անկարող" noun_adj sg dat_gen def
+	"անկարող" adj subst sg dat_gen def
+	"անկարող" n sg dat_gen def
 
 "<պղպջակներու>"
 	"պղպջակ" n pl dat_gen
@@ -4066,17 +3979,17 @@
 	"անգթութիւն" n sg
 
 "<ԴԱԴՐԵՑՆԵԼՈՒ>"
-	"դադրիլ" v iv caus ger fut_ptcp
 	"դադրեցնել" v <tv caus ger fut_ptcp
-	"դադրիլ" v iv caus ger sg dat_gen
 	"դադրեցնել" v <tv caus ger sg dat_gen
+	"դադրիլ" v iv caus ger fut_ptcp
+	"դադրիլ" v iv caus ger sg dat_gen
 
 "<արանքում>"
 	"արանք" n sg loc
 
 "<Դրամատուներ>"
-	"դրամատու" n pl
 	"դրամատուն" n pl
+	"դրամատու" n pl
 
 "<գոլէժը>"
 	"*գոլէժը"
@@ -4094,7 +4007,7 @@
 	"պաշտօնէութիւն" n sg
 
 "<կորսնցուցինք>"
-	"կորսնցնել" v <tv caus aor past pret p1 pl indc
+	"կորսնցնել" v <tv caus past pret p1 pl indc
 
 "<կուսակցականի>"
 	"կուսակցական" n sg dat_gen
@@ -4103,13 +4016,13 @@
 	"բողոքել" v iv pres p1 pl subj
 
 "<յայտարարեցին>"
-	"յայտարարել" v tv aor past pret p3 pl indc
+	"յայտարարել" v tv past pret p3 pl indc
 
 "<ՓՇՈՏ>"
 	"փշոտ" adj
 
 "<Աղեքսանդր>"
-	"Աղեքսանդր" n np ant m sg
+	"Աղեքսանդր" np ant m sg
 
 "<Աղաճանեան>"
 	"*Աղաճանեան"
@@ -4124,9 +4037,9 @@
 	"յաւելում" n pl
 
 "<կինդ>"
-	"կին" n sg px2sg
 	"իկ" n sg dat_gen def
 		"NP" sg px2sg
+	"կին" n sg px2sg
 
 "<հելլէն>"
 	"հելլէն" n sg
@@ -4136,9 +4049,6 @@
 
 "<ԹԱՒԻՇով>"
 	"թաւիշ" n sg ins
- 
-
-
 
 "<վնասուածքներ>"
 	"*վնասուածքներ"
@@ -4147,7 +4057,7 @@
 	"*Հէլսինքեան"
 
 "<նկրտումներու>"
-	"*նկրտումներու"
+	"նկրտում" n pl dat_gen
 
 "<էջիս>"
 	"էջ" n sg dat_gen px1sg
@@ -4159,7 +4069,8 @@
 	"*Իւսիֆ"
 
 "<փախստականները>"
-	"փախստական" noun_adj pl def
+	"փախստական" adj subst pl def
+	"փախստական" n pl def
 
 "<ԱՆՁԻ>"
 	"անձ" n sg dat_gen
@@ -4173,23 +4084,22 @@
 "<անաղմուկ>"
 	"*անաղմուկ"
 
-
 "<մարտերուն>"
 	"մարտ" n pl dat_gen def
 
-
 "<Լազարեանը>"
-	"Լազարեան" n np pat sg def
-
-
+	"Լազարեան" np cog sg def
 
 "<Ազատի՞մ>"
 	"ազատիլ" v iv pres p1 sg subj
 		"՞" punct
 
 "<դիմագրաւեց>"
-	"դիմագրաւել" v tv aor past pret p3 sg indc
+	"դիմագրաւել" v tv past pret p3 sg indc
 
 "<լիբերալ>"
 	"*լիբերալ"
+"<.>"
+	"." sent
+
 
