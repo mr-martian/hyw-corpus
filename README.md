@@ -8,7 +8,7 @@ The corpora and the folders are the following:
 * [Bibles](Bibles/) for Western and Eastern Armenian
 * A [Newspaper](Newspaper/) corpus for Western Armenian
 * [UD](UD/) Treebanks for Western and Eastern Armenian
-* [Wikipedia]( for Western and Eastern Armenian
+* [Wikipedia](Wikipedia/) for Western and Eastern Armenian
 
 To measure precision and recall, we used the items and code in the [precision_recall_material](precision_recall_material/) folder. 
 
