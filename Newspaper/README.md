@@ -1,0 +1,1 @@
+This corpus was scraped from the [Kantsasar newspaper](http://www.kantsasar.com/news/). The scraping period and tools are explained in the associated paper. 
