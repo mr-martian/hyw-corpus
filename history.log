@@ -10,3 +10,14 @@
 -e hye.bible.catholic Mon Jan 17 14:04:29 PST 2022	 619937/ 775331	0
 -e hye.bible.catholic Mon Jan 17 14:35:00 PST 2022	 778774/ 831937	0
 -e hyw.bibleOTNT Mon Jan 17 15:13:27 PST 2022	 738998/ 743964	0
+-e hy_armtdp-ud-test.txt Mon Jan 17 15:38:24 PST 2022	 0/ 0	0
+-e hy_armtdp-ud-test.txt Mon Jan 17 15:38:33 PST 2022	 0/ 0	0
+-e hy_armtdp-ud-test.txt Mon Jan 17 15:38:46 PST 2022	 3945/ 5277	0
+-e hy_armtdp-ud-train.txt Mon Jan 17 15:39:41 PST 2022	 31122/ 41688	0
+-e hy_armtdp-ud-dev.txt Mon Jan 17 15:40:06 PST 2022	 3840/ 5301	0
+-e hy_bsut-ud-test.txt Mon Jan 17 15:40:51 PST 2022	 0/ 0	0
+-e hy_bsut-ud-test.txt Mon Jan 17 15:41:02 PST 2022	 2335/ 3126	0
+-e hyw_armtdp-ud-train.txt Mon Jan 17 15:41:19 PST 2022	 0/ 0	0
+-e hyw_armtdp-ud-train.txt Mon Jan 17 15:41:40 PST 2022	 66480/ 69734	0
+-e hyw_armtdp-ud-test.txt Mon Jan 17 15:42:37 PST 2022	 9679/ 10007	0
+-e hyw_armtdp-ud-dev.txt Mon Jan 17 15:43:12 PST 2022	 9292/ 9644	0
