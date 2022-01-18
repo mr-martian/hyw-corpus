@@ -1,1 +1,0 @@
-head -n 500 hyw.kantsasar.20211104.txt | apertium -d ~/apertium-data/apertium-hyw hyw-morph | apertium-cleanstream -n | tail -n 1200 | cg-conv -al > prec_rec.cg.txt
