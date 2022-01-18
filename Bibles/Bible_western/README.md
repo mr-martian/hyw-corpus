@@ -1,4 +1,4 @@
-When we were finding Bible versions, we manually or automatically scraped Bibles from different sources. The best version was from [hyw.bibleOTNT.hycatholic](hyw.bibleOTNT.hycatholic) and this is the version   that that we report on. 
+When we were finding Bible versions, we manually or automatically scraped Bibles from different sources. The best version was [hyw.bibleOTNT.hycatholic.txt](hyw.bibleOTNT.hycatholic.txt) and this is the version   that that we report on. 
 
 * The [hyw.bibleOTNT.asdvadzashunch](hyw.bibleOTNT.asdvadzashunch.txt) file was from a [blog](https://asdvadzashunch.blogspot.com/). But it had too typos and punctuation issues.
 
