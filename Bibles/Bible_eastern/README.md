@@ -1,5 +1,3 @@
-We tested our hyw parser on hye text
-
 * [hye.bible.catholic.reformed](hye.bible.catholic.reformed.txt) is a Bible that is written in Eastern Armenian and is written in the reformed spelling. The Bible was retrieved from [HYCATHOLIC](https://hycatholic.ru/biblio/աստվածաշունչ/)	The site says that the edition is:
 > HOLY BIBLE Eastern Armenian - New Revision
 > ՄԱՅՐ ԱԹՈՌ Ս. ԷՋՄԻԱԾԻՆ
