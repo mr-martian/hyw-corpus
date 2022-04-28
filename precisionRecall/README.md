@@ -8,3 +8,6 @@ The material was used for measuring precision and recall
 
  * Use the following command:
 	`python3 precisionRecall.py  hyw-1300.reference.txt  hyw-1300.annotated.txt`
+
+ * How to generate the reference
+   `cat hyw-1300.words.txt | hfst-proc -w ../../apertium-hyw/hyw.automorf.hfst | cg-conv -al > hyw-1300.reference.txt`
