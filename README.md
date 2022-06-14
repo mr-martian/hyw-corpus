@@ -17,15 +17,15 @@ To measure precision and recall, we used the items and code in the [precisionRec
 To evaluate the analyzer over some corpus, do the following:
 
 1. Clone this repo and the [apertium-hyw](https://github.com/apertium/apertium-hyw/) repo.
-2. To get the analyzer, run `make hyw.automorf.bin` or `make`.
-3. To run the analyzer on some corpus (`CORPUS`), run the following command:
-`sh coverage-ltproc.sh CORPUS ../apertium-hyw/hyw.automorf.bin`
+2. To get the analyzer, run `make` or either `hyx@hyw.automorf` or `hyx@hye.automorf`.
+3. To run the Western Armenian analyzer on some corpus (`CORPUS`), run the following command:
+`sh coverage-ltproc.sh CORPUS ../apertium-hyw/hyx@hyw.automorf.bin`
 4. Open the temp folder by running the following command:
 	 `open /tmp`
 5. Find the filename of the parade file and copy the file name. 
 The file name can look something like `CORPUS.parade.txt`
 6. To get a list of tokens and their analysis, run the following command:
-`cat /tmp/CORPUS.parade.txt | lt-proc ../apertium-hyw/hyw.automorf.bin | apertium-cleanstream -n > toks.txt`
+`cat /tmp/CORPUS.parade.txt | lt-proc ../apertium-hyw/hyx@hyw.automorf.bin | apertium-cleanstream -n > toks.txt`
 7. To get a list of unknown tokens, run the following command:
 `cat /tmp/CORPUS.parade.txt | grep '\*' | sort | uniq -c | sort -rn > unks.txt`
 
