@@ -6,5 +6,5 @@ When we were finding Bible versions, we manually or automatically scraped Bibles
 
 * The [hyw.bibleNT.sacredtext](hyw.bibleNT.sacredtext/hyw.bibleNT.sacredtext.txt) file was [Sacred-Texts](https://www.sacred-texts.com/bib/wb/armw/) but it only had the New Testament.
 
-* The [hyw.bibleOTNT.hycatholic](hyw.bibleOTNT.hycatholic/hyw.bibleOTNT.hycatholic.txt) is from [HYCATHOLIC](https://hycatholic.ru/biblia/) and it was manually scraped.
+* The [hyw.bibleOTNT.hycatholic](hyw.bibleOTNT.hycatholic/hyw.bibleOTNT.hycatholic.txt) is from [HYCATHOLIC](https://hycatholic.ru/biblia/) and it was manually scraped. An accompanying [PDF](https://hycatholic.ru/biblio/bible-wa/biblia-wa.pdf) version states that this edition was made in 1994 as a re-print of some undescribed earlier version (like the 1853 version) with corrections.
 
